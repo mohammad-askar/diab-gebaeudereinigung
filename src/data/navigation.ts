@@ -1,29 +1,29 @@
 export const mainNavigation = [
   {
-    label: "Startseite",
+    translationKey: "home",
     href: "/",
   },
   {
-    label: "Leistungen",
+    translationKey: "services",
     href: "/leistungen",
   },
   {
-    label: "Über uns",
+    translationKey: "about",
     href: "/ueber-uns",
   },
   {
-    label: "Kontakt",
+    translationKey: "contact",
     href: "/kontakt",
   },
 ] as const;
 
 export const legalNavigation = [
   {
-    label: "Impressum",
+    translationKey: "imprint",
     href: "/impressum",
   },
   {
-    label: "Datenschutz",
+    translationKey: "privacy",
     href: "/datenschutz",
   },
 ] as const;

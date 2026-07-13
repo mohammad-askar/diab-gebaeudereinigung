@@ -27,5 +27,19 @@
     "german": "Deutsch",
     "english": "Englisch",
     "arabic": "Arabisch"
+  },
+  "Header": {
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "callUs": "Jetzt anrufen",
+    "contact": "Angebot anfragen"
+  },
+  "Footer": {
+    "description": "Zuverlässige und professionelle Reinigung für Hotels, Unternehmen und private Haushalte.",
+    "navigation": "Navigation",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "copyright": "Alle Rechte vorbehalten."
   }
 }
