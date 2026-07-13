@@ -3,7 +3,8 @@ import { Manrope, Noto_Sans_Arabic } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
-
+import { SiteFooter } from "@/components/layout/site-footer";
+import { SiteHeader } from "@/components/layout/site-header";
 import { routing } from "@/i18n/routing";
 
 const manrope = Manrope({
@@ -65,7 +66,20 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={locale} dir={isArabic ? "rtl" : "ltr"}>
       <body className={`${manrope.variable} ${notoSansArabic.variable} antialiased`}>
-        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>
+          <a
+            href="#main-content"
+            className="sr-only z-[100] bg-white p-4 focus:not-sr-only focus:fixed focus:start-4 focus:top-4"
+          >
+            Skip to content
+          </a>
+
+          <SiteHeader />
+
+          <div id="main-content">{children}</div>
+
+          <SiteFooter />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

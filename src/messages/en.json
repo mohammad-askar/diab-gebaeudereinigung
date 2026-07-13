@@ -27,5 +27,19 @@
     "german": "German",
     "english": "English",
     "arabic": "Arabic"
+  },
+  "Header": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "callUs": "Call now",
+    "contact": "Request a quote"
+  },
+  "Footer": {
+    "description": "Reliable and professional cleaning for hotels, businesses and private homes.",
+    "navigation": "Navigation",
+    "services": "Services",
+    "contact": "Contact",
+    "legal": "Legal",
+    "copyright": "All rights reserved."
   }
 }
