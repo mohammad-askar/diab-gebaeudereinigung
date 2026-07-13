@@ -1,0 +1,31 @@
+{
+  "Metadata": {
+    "title": "Diab Building Cleaning",
+    "description": "Reliable cleaning services for hotels, offices, medical practices, buildings and private homes."
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "contact": "Contact",
+    "imprint": "Legal notice",
+    "privacy": "Privacy policy"
+  },
+  "Hero": {
+    "eyebrow": "Professional cleaning",
+    "title": "Cleanliness you can rely on.",
+    "description": "Reliable and thorough cleaning services for hotels, offices, medical practices, buildings and private homes.",
+    "contactButton": "Contact us",
+    "servicesButton": "Our services"
+  },
+  "Services": {
+    "hotelCleaning": "Hotel cleaning",
+    "buildingCleaning": "Building cleaning"
+  },
+  "LanguageSwitcher": {
+    "label": "Select language",
+    "german": "German",
+    "english": "English",
+    "arabic": "Arabic"
+  }
+}
