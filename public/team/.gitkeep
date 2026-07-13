@@ -1,0 +1,83 @@
+# Diab Gebäudereinigung — Project Requirements
+
+## Project overview
+
+A modern, responsive website for Diab Gebäudereinigung.
+
+The website presents the company, its cleaning services, contact details, and legal information.
+
+## Target audience
+
+- Hotels
+- Offices
+- Medical practices
+- Property owners
+- Private households
+- Commercial customers
+
+## Primary language
+
+German
+
+## Main goals
+
+- Present the company professionally
+- Explain the available cleaning services
+- Make contacting the company easy
+- Improve local visibility in search engines
+- Provide legally required pages for Germany
+
+## Initial pages
+
+- Home
+- Leistungen
+- Über uns
+- Kontakt
+- Impressum
+- Datenschutz
+
+## Initial services
+
+### Hotelreinigung
+
+- Zimmerreinigung
+- Badezimmer- und Sanitärreinigung
+- Bettwäschewechsel
+- Reinigung öffentlicher Bereiche
+- Wellness- und Spa-Bereiche
+- Konferenzräume und Restaurants
+
+### Gebäudereinigung
+
+- Büroreinigung
+- Praxisreinigung
+- Treppenhausreinigung
+- Unterhaltsreinigung
+- Glas- und Fensterreinigung
+- Baureinigung
+- Sonderreinigungen
+
+## Technical scope
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Responsive design
+- Local fonts
+- SEO metadata
+- Contact form
+- Google Maps integration with privacy protection
+- No login
+- No database in the first version
+- No admin dashboard
+
+## Missing business information
+
+- Official company address
+- Legal business form
+- Tax identification information
+- Exact service area
+- Business hours
+- WhatsApp number
+- Google Business Profile URL
+- Final legal texts
