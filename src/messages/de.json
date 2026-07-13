@@ -1,0 +1,31 @@
+{
+  "Metadata": {
+    "title": "Diab Gebäudereinigung",
+    "description": "Zuverlässige Gebäudereinigung für Hotels, Büros, Praxen, Gebäude und private Haushalte."
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "Hero": {
+    "eyebrow": "Professionelle Reinigung",
+    "title": "Sauberkeit, auf die Sie sich verlassen können.",
+    "description": "Zuverlässige und gründliche Reinigungsleistungen für Hotels, Büros, Praxen, Gebäude und private Haushalte.",
+    "contactButton": "Kontakt aufnehmen",
+    "servicesButton": "Unsere Leistungen"
+  },
+  "Services": {
+    "hotelCleaning": "Hotelreinigung",
+    "buildingCleaning": "Gebäudereinigung"
+  },
+  "LanguageSwitcher": {
+    "label": "Sprache auswählen",
+    "german": "Deutsch",
+    "english": "Englisch",
+    "arabic": "Arabisch"
+  }
+}
