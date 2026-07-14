@@ -264,5 +264,85 @@
       "primaryButton": "Send an enquiry",
       "secondaryButton": "Call now"
     }
+  },
+  "AboutPage": {
+    "metadata": {
+      "title": "About us",
+      "description": "Learn more about Diab Gebäudereinigung, our working approach and our personalised cleaning solutions."
+    },
+    "hero": {
+      "eyebrow": "About Diab Gebäudereinigung",
+      "title": "Personal service and careful cleaning",
+      "description": "We support commercial and private clients with reliable cleaning solutions, clear communication and individually arranged services.",
+      "primaryButton": "Contact us",
+      "secondaryButton": "Our services"
+    },
+    "introduction": {
+      "eyebrow": "Our company",
+      "title": "Cleaning tailored to your requirements",
+      "descriptionOne": "Diab Gebäudereinigung provides cleaning services for hotels, offices, medical practices, buildings and private homes.",
+      "descriptionTwo": "We coordinate the scope of work, cleaning times and special requirements directly with our clients.",
+      "descriptionThree": "Our goal is reliable cooperation and a consistently well-maintained appearance for your premises."
+    },
+    "owners": {
+      "eyebrow": "Personal contacts",
+      "title": "Justyna and Muwafak Zyab",
+      "description": "Personal support enables direct communication and efficient coordination of the requested cleaning services.",
+      "firstOwnerRole": "Contact person",
+      "secondOwnerRole": "Contact person"
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "title": "What matters to us in our daily work",
+      "description": "Good cleaning services begin with clear agreements and responsible treatment of our clients’ premises.",
+      "items": {
+        "reliability": {
+          "title": "Reliability",
+          "description": "Agreed appointments and tasks are carried out carefully."
+        },
+        "quality": {
+          "title": "Attention to detail",
+          "description": "We focus on details and a consistently well-maintained appearance."
+        },
+        "flexibility": {
+          "title": "Flexibility",
+          "description": "The scope of service and working times are arranged individually."
+        },
+        "communication": {
+          "title": "Clear communication",
+          "description": "Questions, requests and changes are discussed directly and transparently."
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Our approach",
+      "title": "A structured process from enquiry to cleaning",
+      "description": "We keep the process clear and adapt each step to the individual property.",
+      "items": {
+        "understand": {
+          "title": "Understand the requirements",
+          "description": "We discuss the premises, required scope and any special requirements."
+        },
+        "plan": {
+          "title": "Plan the service",
+          "description": "We agree on tasks, frequency and suitable cleaning times."
+        },
+        "execute": {
+          "title": "Clean carefully",
+          "description": "The agreed cleaning services are carried out reliably."
+        },
+        "review": {
+          "title": "Review the cooperation",
+          "description": "When needed, we discuss changes and adjust the services."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Get to know us",
+      "title": "Let us discuss your cleaning requirements",
+      "description": "Contact us and tell us which premises and services you require.",
+      "primaryButton": "Send an enquiry",
+      "secondaryButton": "Call now"
+    }
   }
 }

@@ -57,3 +57,12 @@ export type ServiceId =
   | "medicalCleaning"
   | "windowCleaning"
   | "constructionCleaning";
+
+export type CompanyValue = {
+  id: "reliability" | "quality" | "flexibility" | "communication";
+};
+
+export type WorkingStep = {
+  id: "understand" | "plan" | "execute" | "review";
+  step: number;
+};

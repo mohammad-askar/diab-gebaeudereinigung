@@ -268,5 +268,85 @@
       "primaryButton": "Anfrage senden",
       "secondaryButton": "Jetzt anrufen"
     }
+  },
+  "AboutPage": {
+    "metadata": {
+      "title": "Über uns",
+      "description": "Erfahren Sie mehr über Diab Gebäudereinigung, unsere Arbeitsweise und unsere persönlichen Reinigungslösungen."
+    },
+    "hero": {
+      "eyebrow": "Über Diab Gebäudereinigung",
+      "title": "Persönlicher Service und sorgfältige Reinigung",
+      "description": "Wir unterstützen gewerbliche und private Kunden mit zuverlässigen Reinigungslösungen, klarer Kommunikation und individuell abgestimmten Leistungen.",
+      "primaryButton": "Kontakt aufnehmen",
+      "secondaryButton": "Unsere Leistungen"
+    },
+    "introduction": {
+      "eyebrow": "Unser Unternehmen",
+      "title": "Reinigung, die zu Ihren Anforderungen passt",
+      "descriptionOne": "Diab Gebäudereinigung bietet Reinigungsleistungen für Hotels, Büros, Praxen, Gebäude und private Haushalte.",
+      "descriptionTwo": "Wir stimmen den Leistungsumfang, die Reinigungszeiten und die besonderen Anforderungen direkt mit unseren Kunden ab.",
+      "descriptionThree": "Unser Ziel ist eine verlässliche Zusammenarbeit und ein dauerhaft gepflegter Eindruck Ihrer Räume."
+    },
+    "owners": {
+      "eyebrow": "Persönliche Ansprechpartner",
+      "title": "Justyna und Muwafak Zyab",
+      "description": "Die persönliche Betreuung ermöglicht kurze Kommunikationswege und eine direkte Abstimmung der gewünschten Reinigungsleistungen.",
+      "firstOwnerRole": "Ansprechpartnerin",
+      "secondOwnerRole": "Ansprechpartner"
+    },
+    "values": {
+      "eyebrow": "Unsere Werte",
+      "title": "Was uns bei der täglichen Arbeit wichtig ist",
+      "description": "Gute Reinigungsleistungen beginnen mit klaren Absprachen und einem verantwortungsvollen Umgang mit den Räumen unserer Kunden.",
+      "items": {
+        "reliability": {
+          "title": "Zuverlässigkeit",
+          "description": "Vereinbarte Termine und Aufgaben werden sorgfältig eingehalten."
+        },
+        "quality": {
+          "title": "Sorgfalt",
+          "description": "Wir achten auf Details und einen gepflegten Gesamteindruck."
+        },
+        "flexibility": {
+          "title": "Flexibilität",
+          "description": "Leistungsumfang und Einsatzzeiten werden individuell abgestimmt."
+        },
+        "communication": {
+          "title": "Klare Kommunikation",
+          "description": "Fragen, Wünsche und Änderungen werden direkt und transparent besprochen."
+        }
+      }
+    },
+    "approach": {
+      "eyebrow": "Unsere Arbeitsweise",
+      "title": "Strukturiert von der Anfrage bis zur Reinigung",
+      "description": "Wir halten den Ablauf übersichtlich und passen die einzelnen Schritte an das jeweilige Objekt an.",
+      "items": {
+        "understand": {
+          "title": "Anforderungen verstehen",
+          "description": "Wir besprechen die Räume, den gewünschten Umfang und besondere Anforderungen."
+        },
+        "plan": {
+          "title": "Leistung planen",
+          "description": "Wir stimmen Aufgaben, Häufigkeit und passende Reinigungszeiten ab."
+        },
+        "execute": {
+          "title": "Sorgfältig reinigen",
+          "description": "Die vereinbarten Reinigungsleistungen werden zuverlässig durchgeführt."
+        },
+        "review": {
+          "title": "Zusammenarbeit abstimmen",
+          "description": "Bei Bedarf besprechen wir Änderungen und passen die Leistungen an."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Persönlich kennenlernen",
+      "title": "Sprechen wir über Ihre Reinigungsanforderungen",
+      "description": "Kontaktieren Sie uns und teilen Sie uns mit, welche Räume und Leistungen Sie benötigen.",
+      "primaryButton": "Anfrage senden",
+      "secondaryButton": "Jetzt anrufen"
+    }
   }
 }
