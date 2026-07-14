@@ -20,13 +20,19 @@ export type Company = {
   serviceArea: string[];
 };
 
+export type ServiceIconName =
+  "hotel" | "building" | "office" | "medical" | "window" | "construction";
+
 export type ServiceItem = {
-  title: string;
+  id: string;
+  icon: ServiceIconName;
 };
 
-export type ServiceCategory = {
+export type BenefitItem = {
   id: string;
-  title: string;
-  description: string;
-  items: ServiceItem[];
+};
+
+export type ProcessStep = {
+  id: string;
+  step: number;
 };
