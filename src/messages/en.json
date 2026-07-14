@@ -344,5 +344,69 @@
       "primaryButton": "Send an enquiry",
       "secondaryButton": "Call now"
     }
+  },
+  "ContactPage": {
+    "metadata": {
+      "title": "Contact",
+      "description": "Contact Diab Gebäudereinigung by telephone, email or through our enquiry form."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "How can we help you?",
+      "description": "Tell us which cleaning service you require. We will contact you to discuss the next steps."
+    },
+    "details": {
+      "eyebrow": "Direct contact",
+      "title": "Reach us by telephone or email",
+      "description": "For quick coordination, call us directly. Alternatively, send your enquiry through the form.",
+      "phoneTitle": "Telephone",
+      "emailTitle": "Email",
+      "locationTitle": "Service area",
+      "locationValue": "Germany – exact service area by arrangement",
+      "mapTitle": "Location and directions",
+      "mapDescription": "The map is not loaded automatically. The link opens Google Maps in a new window.",
+      "mapButton": "Open Google Maps"
+    },
+    "form": {
+      "eyebrow": "Send an enquiry",
+      "title": "Tell us briefly about your cleaning requirements",
+      "description": "Complete the form. Required fields are marked with an asterisk.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "name@example.com",
+      "phoneLabel": "Telephone number",
+      "phonePlaceholder": "Optional",
+      "serviceLabel": "Required service",
+      "servicePlaceholder": "Please select",
+      "messageLabel": "Your message",
+      "messagePlaceholder": "Which areas need cleaning and what scope of service do you require?",
+      "privacyLabel": "I have read the privacy policy and agree to the processing of my information for the purpose of handling my enquiry.",
+      "privacyLink": "Privacy policy",
+      "submit": "Send enquiry",
+      "submitting": "Sending enquiry …",
+      "requiredHint": "Required field",
+      "success": "Thank you. Your enquiry has been received successfully.",
+      "temporarySuccess": "The form was validated successfully. Email delivery will be connected in a later task.",
+      "generalError": "The enquiry could not be processed. Please check your information.",
+      "services": {
+        "hotelCleaning": "Hotel cleaning",
+        "buildingCleaning": "Building cleaning",
+        "officeCleaning": "Office cleaning",
+        "medicalCleaning": "Medical practice cleaning",
+        "windowCleaning": "Glass and window cleaning",
+        "constructionCleaning": "Construction cleaning",
+        "other": "Other cleaning service"
+      },
+      "validation": {
+        "nameRequired": "Enter a name containing at least two characters.",
+        "emailInvalid": "Enter a valid email address.",
+        "phoneInvalid": "The telephone number is too long.",
+        "serviceRequired": "Select a service.",
+        "messageRequired": "Write a message containing at least ten characters.",
+        "privacyRequired": "Confirm that you have read the privacy policy.",
+        "spamDetected": "The enquiry could not be processed."
+      }
+    }
   }
 }

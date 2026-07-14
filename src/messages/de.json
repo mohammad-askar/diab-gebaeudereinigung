@@ -348,5 +348,69 @@
       "primaryButton": "Anfrage senden",
       "secondaryButton": "Jetzt anrufen"
     }
+  },
+  "ContactPage": {
+    "metadata": {
+      "title": "Kontakt",
+      "description": "Kontaktieren Sie Diab Gebäudereinigung telefonisch, per E-Mail oder über unser Anfrageformular."
+    },
+    "hero": {
+      "eyebrow": "Kontakt",
+      "title": "Wie können wir Ihnen helfen?",
+      "description": "Teilen Sie uns mit, welche Reinigungsleistung Sie benötigen. Wir melden uns bei Ihnen, um die nächsten Schritte zu besprechen."
+    },
+    "details": {
+      "eyebrow": "Direkter Kontakt",
+      "title": "Sie erreichen uns telefonisch oder per E-Mail",
+      "description": "Für eine schnelle Abstimmung können Sie uns direkt anrufen. Alternativ senden Sie uns Ihre Anfrage über das Formular.",
+      "phoneTitle": "Telefon",
+      "emailTitle": "E-Mail",
+      "locationTitle": "Einsatzgebiet",
+      "locationValue": "Deutschland – genauer Einsatzbereich nach Vereinbarung",
+      "mapTitle": "Standort und Anfahrt",
+      "mapDescription": "Die Karte wird nicht automatisch geladen. Der Link öffnet Google Maps in einem neuen Fenster.",
+      "mapButton": "Google Maps öffnen"
+    },
+    "form": {
+      "eyebrow": "Anfrage senden",
+      "title": "Erzählen Sie uns kurz von Ihrem Reinigungsbedarf",
+      "description": "Füllen Sie das Formular aus. Pflichtfelder sind mit einem Sternchen gekennzeichnet.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Ihr Name",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "name@beispiel.de",
+      "phoneLabel": "Telefonnummer",
+      "phonePlaceholder": "Optional",
+      "serviceLabel": "Gewünschte Leistung",
+      "servicePlaceholder": "Bitte auswählen",
+      "messageLabel": "Ihre Nachricht",
+      "messagePlaceholder": "Welche Räume sollen gereinigt werden und welchen Umfang benötigen Sie?",
+      "privacyLabel": "Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner Angaben zur Bearbeitung meiner Anfrage einverstanden.",
+      "privacyLink": "Datenschutzerklärung",
+      "submit": "Anfrage senden",
+      "submitting": "Anfrage wird gesendet …",
+      "requiredHint": "Pflichtfeld",
+      "success": "Vielen Dank. Ihre Anfrage wurde erfolgreich entgegengenommen.",
+      "temporarySuccess": "Das Formular wurde erfolgreich geprüft. Der E-Mail-Versand wird in einer späteren Aufgabe verbunden.",
+      "generalError": "Die Anfrage konnte nicht verarbeitet werden. Bitte prüfen Sie Ihre Angaben.",
+      "services": {
+        "hotelCleaning": "Hotelreinigung",
+        "buildingCleaning": "Gebäudereinigung",
+        "officeCleaning": "Büroreinigung",
+        "medicalCleaning": "Praxisreinigung",
+        "windowCleaning": "Glas- und Fensterreinigung",
+        "constructionCleaning": "Baureinigung",
+        "other": "Andere Reinigungsleistung"
+      },
+      "validation": {
+        "nameRequired": "Bitte geben Sie einen Namen mit mindestens zwei Zeichen ein.",
+        "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+        "phoneInvalid": "Die Telefonnummer ist zu lang.",
+        "serviceRequired": "Bitte wählen Sie eine Leistung aus.",
+        "messageRequired": "Bitte schreiben Sie eine Nachricht mit mindestens zehn Zeichen.",
+        "privacyRequired": "Bitte bestätigen Sie die Datenschutzerklärung.",
+        "spamDetected": "Die Anfrage konnte nicht verarbeitet werden."
+      }
+    }
   }
 }
