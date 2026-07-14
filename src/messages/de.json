@@ -147,5 +147,126 @@
       "primaryButton": "Angebot anfragen",
       "secondaryButton": "Jetzt anrufen"
     }
+  },
+  "ServicesPage": {
+    "metadata": {
+      "title": "Leistungen",
+      "description": "Entdecken Sie die professionellen Reinigungsleistungen von Diab Gebäudereinigung für Hotels, Büros, Praxen, Gebäude und private Haushalte."
+    },
+    "hero": {
+      "eyebrow": "Unsere Reinigungsleistungen",
+      "title": "Die passende Reinigung für Ihre Räume",
+      "description": "Wir bieten zuverlässige und individuell abgestimmte Reinigungslösungen für Hotels, Unternehmen, Praxen, Immobilien und private Haushalte.",
+      "primaryButton": "Angebot anfragen",
+      "secondaryButton": "Direkt anrufen"
+    },
+    "categories": {
+      "hotel": {
+        "eyebrow": "Hotelreinigung",
+        "title": "Sauberkeit und Komfort für Ihre Gäste",
+        "description": "Wir unterstützen Hotels und Beherbergungsbetriebe bei der gründlichen Pflege von Zimmern, Sanitärbereichen und gemeinschaftlich genutzten Räumen."
+      },
+      "building": {
+        "eyebrow": "Gebäudereinigung",
+        "title": "Gepflegte Gebäude für einen professionellen Eindruck",
+        "description": "Von Büros und Praxen bis zu Treppenhäusern und Glasflächen übernehmen wir regelmäßige und individuelle Reinigungsarbeiten."
+      }
+    },
+    "items": {
+      "hotelCleaning": {
+        "title": "Hotelreinigung",
+        "description": "Individuell geplante Reinigung für Hotels, Pensionen und andere Beherbergungsbetriebe.",
+        "features": [
+          "Reinigung nach abgestimmten Abläufen",
+          "Flexible Einsatzzeiten",
+          "Pflege von Gäste- und Gemeinschaftsbereichen"
+        ]
+      },
+      "roomCleaning": {
+        "title": "Zimmerreinigung",
+        "description": "Gründliche Reinigung und Vorbereitung der Gästezimmer für neue und bestehende Gäste.",
+        "features": [
+          "Reinigung von Oberflächen und Böden",
+          "Betten und Bettwäsche nach Vereinbarung",
+          "Kontrolle des gepflegten Gesamteindrucks"
+        ]
+      },
+      "sanitaryCleaning": {
+        "title": "Badezimmer- und Sanitärreinigung",
+        "description": "Sorgfältige Reinigung von Badezimmern, Toiletten und weiteren Sanitärbereichen.",
+        "features": [
+          "Reinigung von Waschbecken und Armaturen",
+          "Pflege von Duschen und Sanitärflächen",
+          "Beseitigung typischer Verschmutzungen"
+        ]
+      },
+      "publicAreas": {
+        "title": "Öffentliche Hotelbereiche",
+        "description": "Reinigung stark frequentierter Bereiche für einen gepflegten ersten Eindruck.",
+        "features": [
+          "Lobby und Empfang",
+          "Flure und Treppenhäuser",
+          "Konferenz- und Gemeinschaftsräume"
+        ]
+      },
+      "buildingCleaning": {
+        "title": "Gebäudereinigung",
+        "description": "Regelmäßige oder bedarfsgerechte Reinigung von gewerblichen und privaten Gebäuden.",
+        "features": [
+          "Individuell abgestimmter Leistungsumfang",
+          "Regelmäßige oder einmalige Reinigung",
+          "Flexible Terminplanung"
+        ]
+      },
+      "officeCleaning": {
+        "title": "Büroreinigung",
+        "description": "Saubere Arbeitsplätze und gepflegte Gemeinschaftsbereiche für Ihr Unternehmen.",
+        "features": [
+          "Arbeits- und Besprechungsräume",
+          "Küchen und Aufenthaltsbereiche",
+          "Böden und häufig genutzte Oberflächen"
+        ]
+      },
+      "medicalCleaning": {
+        "title": "Praxisreinigung",
+        "description": "Sorgfältige Reinigung von Praxen und weiteren sensiblen Arbeitsbereichen.",
+        "features": [
+          "Behandlungs- und Warteräume",
+          "Empfangsbereiche",
+          "Abgestimmte Reinigungsabläufe"
+        ]
+      },
+      "windowCleaning": {
+        "title": "Glas- und Fensterreinigung",
+        "description": "Professionelle Pflege von Fenstern, Rahmen und weiteren Glasflächen.",
+        "features": [
+          "Innen- und Außenflächen nach Vereinbarung",
+          "Fensterrahmen und Fensterbänke",
+          "Glasflächen in Eingangsbereichen"
+        ]
+      },
+      "constructionCleaning": {
+        "title": "Baureinigung",
+        "description": "Beseitigung von Baustaub und Verschmutzungen während oder nach Bauarbeiten.",
+        "features": [
+          "Grobreinigung während der Bauphase",
+          "Reinigung vor der Übergabe",
+          "Entfernung typischer Baurückstände"
+        ]
+      }
+    },
+    "custom": {
+      "eyebrow": "Individuelle Lösungen",
+      "title": "Ihre gewünschte Leistung ist nicht aufgeführt?",
+      "description": "Nicht jedes Gebäude und nicht jeder Reinigungsauftrag ist gleich. Teilen Sie uns mit, welche Räume gereinigt werden sollen und welchen Umfang Sie benötigen.",
+      "button": "Bedarf besprechen"
+    },
+    "cta": {
+      "eyebrow": "Persönliches Angebot",
+      "title": "Lassen Sie uns Ihre Reinigungsanforderungen besprechen",
+      "description": "Kontaktieren Sie uns mit einigen Informationen zu Ihrem Objekt. Wir klären gemeinsam, welche Leistungen und Reinigungszeiten geeignet sind.",
+      "primaryButton": "Anfrage senden",
+      "secondaryButton": "Jetzt anrufen"
+    }
   }
 }

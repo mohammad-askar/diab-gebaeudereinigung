@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 
-import { services } from "@/data/services";
+import { featuredServices } from "@/data/services";
 import { Link } from "@/i18n/navigation";
 
 import { SectionHeading } from "../ui/section-heading";
@@ -31,7 +31,7 @@ export async function ServicesOverview() {
         </div>
 
         <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service) => (
+          {featuredServices.map((service) => (
             <article
               key={service.id}
               className="group border-border hover:border-brand-blue/30 hover:shadow-brand-blue-dark/10 rounded-3xl border bg-white p-7 transition hover:-translate-y-1 hover:shadow-xl"
