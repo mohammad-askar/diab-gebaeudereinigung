@@ -147,5 +147,122 @@
       "primaryButton": "Request a quote",
       "secondaryButton": "Call now"
     }
+  },
+  "ServicesPage": {
+    "metadata": {
+      "title": "Services",
+      "description": "Discover professional cleaning services from Diab Gebäudereinigung for hotels, offices, medical practices, buildings and private homes."
+    },
+    "hero": {
+      "eyebrow": "Our cleaning services",
+      "title": "The right cleaning solution for your premises",
+      "description": "We provide reliable and individually tailored cleaning solutions for hotels, businesses, medical practices, properties and private homes.",
+      "primaryButton": "Request a quote",
+      "secondaryButton": "Call us directly"
+    },
+    "categories": {
+      "hotel": {
+        "eyebrow": "Hotel cleaning",
+        "title": "Cleanliness and comfort for your guests",
+        "description": "We support hotels and accommodation providers with thorough care of guest rooms, sanitary facilities and shared areas."
+      },
+      "building": {
+        "eyebrow": "Building cleaning",
+        "title": "Well-maintained buildings that create a professional impression",
+        "description": "From offices and medical practices to stairwells and glass surfaces, we provide regular and individually arranged cleaning."
+      }
+    },
+    "items": {
+      "hotelCleaning": {
+        "title": "Hotel cleaning",
+        "description": "Individually planned cleaning for hotels, guest houses and other accommodation businesses.",
+        "features": [
+          "Cleaning based on agreed procedures",
+          "Flexible service times",
+          "Care of guest and communal areas"
+        ]
+      },
+      "roomCleaning": {
+        "title": "Guest room cleaning",
+        "description": "Thorough cleaning and preparation of guest rooms for new and returning guests.",
+        "features": [
+          "Cleaning surfaces and floors",
+          "Beds and linen by arrangement",
+          "Final check of the overall appearance"
+        ]
+      },
+      "sanitaryCleaning": {
+        "title": "Bathroom and sanitary cleaning",
+        "description": "Careful cleaning of bathrooms, toilets and other sanitary areas.",
+        "features": [
+          "Cleaning sinks and fittings",
+          "Care of showers and sanitary surfaces",
+          "Removal of common dirt and residue"
+        ]
+      },
+      "publicAreas": {
+        "title": "Public hotel areas",
+        "description": "Cleaning of highly frequented areas to maintain a positive first impression.",
+        "features": [
+          "Lobby and reception",
+          "Corridors and stairwells",
+          "Conference and communal rooms"
+        ]
+      },
+      "buildingCleaning": {
+        "title": "Building cleaning",
+        "description": "Regular or on-demand cleaning for commercial and private buildings.",
+        "features": [
+          "Individually agreed service scope",
+          "Regular or one-time cleaning",
+          "Flexible scheduling"
+        ]
+      },
+      "officeCleaning": {
+        "title": "Office cleaning",
+        "description": "Clean workplaces and well-maintained communal areas for your business.",
+        "features": [
+          "Work and meeting rooms",
+          "Kitchens and staff areas",
+          "Floors and frequently used surfaces"
+        ]
+      },
+      "medicalCleaning": {
+        "title": "Medical practice cleaning",
+        "description": "Careful cleaning for medical practices and other sensitive working environments.",
+        "features": ["Treatment and waiting rooms", "Reception areas", "Agreed cleaning procedures"]
+      },
+      "windowCleaning": {
+        "title": "Glass and window cleaning",
+        "description": "Professional care of windows, frames and other glass surfaces.",
+        "features": [
+          "Internal and external surfaces by arrangement",
+          "Window frames and sills",
+          "Glass surfaces in entrance areas"
+        ]
+      },
+      "constructionCleaning": {
+        "title": "Construction cleaning",
+        "description": "Removal of construction dust and dirt during or after building work.",
+        "features": [
+          "Rough cleaning during construction",
+          "Cleaning before property handover",
+          "Removal of common construction residue"
+        ]
+      }
+    },
+    "custom": {
+      "eyebrow": "Tailored solutions",
+      "title": "Is the service you need not listed?",
+      "description": "Every property and cleaning requirement is different. Tell us which areas need cleaning and what level of service you require.",
+      "button": "Discuss your requirements"
+    },
+    "cta": {
+      "eyebrow": "Personal quotation",
+      "title": "Let us discuss your cleaning requirements",
+      "description": "Contact us with a few details about your property. Together we will determine the appropriate services and cleaning schedule.",
+      "primaryButton": "Send an enquiry",
+      "secondaryButton": "Call now"
+    }
   }
 }

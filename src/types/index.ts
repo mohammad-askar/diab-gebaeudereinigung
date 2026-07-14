@@ -36,3 +36,24 @@ export type ProcessStep = {
   id: string;
   step: number;
 };
+export type DetailedServiceItem = {
+  id: ServiceId;
+  icon: ServiceIconName;
+  category: "hotel" | "building";
+};
+
+export type ServiceCategoryDetails = {
+  id: "hotel" | "building";
+  serviceIds: ServiceId[];
+};
+
+export type ServiceId =
+  | "hotelCleaning"
+  | "roomCleaning"
+  | "sanitaryCleaning"
+  | "publicAreas"
+  | "buildingCleaning"
+  | "officeCleaning"
+  | "medicalCleaning"
+  | "windowCleaning"
+  | "constructionCleaning";
