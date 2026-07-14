@@ -41,5 +41,111 @@
     "contact": "Contact",
     "legal": "Legal",
     "copyright": "All rights reserved."
+  },
+  "HomePage": {
+    "hero": {
+      "eyebrow": "Professional building cleaning",
+      "title": "Cleanliness you can rely on.",
+      "description": "We provide reliable and thorough cleaning solutions for hotels, offices, medical practices, buildings and private homes.",
+      "primaryButton": "Request a free quote",
+      "secondaryButton": "Explore our services",
+      "phoneLabel": "Call us directly",
+      "trustOne": "Reliable service",
+      "trustTwo": "Flexible scheduling",
+      "trustThree": "Tailored solutions",
+      "cardLabel": "Hotel and building cleaning"
+    },
+    "services": {
+      "eyebrow": "Our services",
+      "title": "Professional cleaning for every requirement",
+      "description": "From regular maintenance cleaning to thorough specialist cleaning, we provide suitable solutions for commercial and private clients.",
+      "viewAll": "View all services",
+      "items": {
+        "hotelCleaning": {
+          "title": "Hotel cleaning",
+          "description": "Thorough cleaning of guest rooms, sanitary facilities and public hotel areas."
+        },
+        "buildingCleaning": {
+          "title": "Building cleaning",
+          "description": "Reliable cleaning and maintenance for commercial and private buildings."
+        },
+        "officeCleaning": {
+          "title": "Office cleaning",
+          "description": "Clean and well-maintained workplaces for employees, clients and business partners."
+        },
+        "medicalCleaning": {
+          "title": "Medical practice cleaning",
+          "description": "Careful cleaning of medical practices and sensitive working areas."
+        },
+        "windowCleaning": {
+          "title": "Glass and window cleaning",
+          "description": "Streak-free cleaning of windows, glass surfaces and frames."
+        },
+        "constructionCleaning": {
+          "title": "Construction cleaning",
+          "description": "Removal of construction dust and dirt before or after property handover."
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Why Diab",
+      "title": "Responsible cleaning with personal service",
+      "description": "We value clear agreements, thorough work and solutions tailored to your property and schedule.",
+      "items": {
+        "reliable": {
+          "title": "Reliable",
+          "description": "Agreed schedules and services are carried out dependably."
+        },
+        "thorough": {
+          "title": "Thorough",
+          "description": "We pay attention to detail and maintain a consistently clean appearance."
+        },
+        "flexible": {
+          "title": "Flexible",
+          "description": "Cleaning times and service requirements are arranged individually."
+        },
+        "personal": {
+          "title": "Personal",
+          "description": "You receive direct contacts and transparent communication."
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "About us",
+      "title": "Your reliable partner for well-maintained spaces",
+      "descriptionOne": "Diab Gebäudereinigung stands for personal support, careful work and individual cleaning solutions.",
+      "descriptionTwo": "Whether it is a hotel, office, medical practice or private home, we adapt our work to your needs and the characteristics of your premises.",
+      "button": "Learn more about us"
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "Four steps to your cleaning solution",
+      "description": "From the first enquiry to regular cleaning, we keep the process simple and transparent.",
+      "items": {
+        "contact": {
+          "title": "Contact us",
+          "description": "Send us your enquiry or call us directly."
+        },
+        "consultation": {
+          "title": "Discuss your needs",
+          "description": "We clarify the property, scope, timing and special requirements."
+        },
+        "offer": {
+          "title": "Receive a quote",
+          "description": "You receive a transparent quote tailored to your needs."
+        },
+        "cleaning": {
+          "title": "Start the cleaning",
+          "description": "Once agreed, we carry out the requested cleaning services."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Request without obligation",
+      "title": "Are you looking for reliable cleaning?",
+      "description": "Contact us and briefly tell us which cleaning service you need. We will discuss the right solution with you.",
+      "primaryButton": "Request a quote",
+      "secondaryButton": "Call now"
+    }
   }
 }

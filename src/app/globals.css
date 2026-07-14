@@ -60,3 +60,6 @@ textarea,
 select {
   font: inherit;
 }
+[dir="rtl"] .directional-icon {
+  transform: scaleX(-1);
+}

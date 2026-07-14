@@ -41,5 +41,111 @@
     "contact": "Kontakt",
     "legal": "Rechtliches",
     "copyright": "Alle Rechte vorbehalten."
+  },
+  "HomePage": {
+    "hero": {
+      "eyebrow": "Professionelle Gebäudereinigung",
+      "title": "Sauberkeit, auf die Sie sich verlassen können.",
+      "description": "Wir bieten zuverlässige und gründliche Reinigungslösungen für Hotels, Büros, Praxen, Gebäude und private Haushalte.",
+      "primaryButton": "Kostenlos anfragen",
+      "secondaryButton": "Leistungen entdecken",
+      "phoneLabel": "Direkt anrufen",
+      "trustOne": "Zuverlässiger Service",
+      "trustTwo": "Flexible Termine",
+      "trustThree": "Individuelle Lösungen",
+      "cardLabel": "Hotel- und Gebäudereinigung"
+    },
+    "services": {
+      "eyebrow": "Unsere Leistungen",
+      "title": "Professionelle Reinigung für jeden Bedarf",
+      "description": "Von der regelmäßigen Unterhaltsreinigung bis zur gründlichen Sonderreinigung bieten wir passende Lösungen für gewerbliche und private Kunden.",
+      "viewAll": "Alle Leistungen ansehen",
+      "items": {
+        "hotelCleaning": {
+          "title": "Hotelreinigung",
+          "description": "Gründliche Reinigung von Zimmern, Sanitärbereichen und öffentlichen Hotelbereichen."
+        },
+        "buildingCleaning": {
+          "title": "Gebäudereinigung",
+          "description": "Zuverlässige Reinigung und Pflege von gewerblichen und privaten Gebäuden."
+        },
+        "officeCleaning": {
+          "title": "Büroreinigung",
+          "description": "Saubere und gepflegte Arbeitsplätze für Mitarbeiter, Kunden und Geschäftspartner."
+        },
+        "medicalCleaning": {
+          "title": "Praxisreinigung",
+          "description": "Sorgfältige Reinigung von Arztpraxen und sensiblen Arbeitsbereichen."
+        },
+        "windowCleaning": {
+          "title": "Glas- und Fensterreinigung",
+          "description": "Streifenfreie Reinigung von Fenstern, Glasflächen und Rahmen."
+        },
+        "constructionCleaning": {
+          "title": "Baureinigung",
+          "description": "Beseitigung von Baustaub und Verschmutzungen vor oder nach der Übergabe."
+        }
+      }
+    },
+    "benefits": {
+      "eyebrow": "Warum Diab",
+      "title": "Reinigung mit Verantwortung und persönlichem Service",
+      "description": "Wir legen Wert auf klare Absprachen, gründliche Arbeit und Lösungen, die zu Ihrem Objekt und Ihrem Zeitplan passen.",
+      "items": {
+        "reliable": {
+          "title": "Zuverlässig",
+          "description": "Vereinbarte Termine und Leistungen werden verlässlich eingehalten."
+        },
+        "thorough": {
+          "title": "Gründlich",
+          "description": "Wir achten auf Details und einen dauerhaft gepflegten Eindruck."
+        },
+        "flexible": {
+          "title": "Flexibel",
+          "description": "Reinigungszeiten und Leistungsumfang werden individuell abgestimmt."
+        },
+        "personal": {
+          "title": "Persönlich",
+          "description": "Sie erhalten direkte Ansprechpartner und transparente Kommunikation."
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "Über uns",
+      "title": "Ihr zuverlässiger Partner für gepflegte Räume",
+      "descriptionOne": "Diab Gebäudereinigung steht für persönliche Betreuung, sorgfältige Ausführung und individuelle Reinigungslösungen.",
+      "descriptionTwo": "Ob Hotel, Büro, Praxis oder privater Haushalt: Wir stimmen unsere Arbeit auf Ihre Anforderungen und die Besonderheiten Ihrer Räume ab.",
+      "button": "Mehr über uns"
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "In vier Schritten zu Ihrer Reinigungslösung",
+      "description": "Von der ersten Anfrage bis zur regelmäßigen Reinigung halten wir den Ablauf einfach und transparent.",
+      "items": {
+        "contact": {
+          "title": "Kontakt aufnehmen",
+          "description": "Sie senden uns Ihre Anfrage oder rufen uns direkt an."
+        },
+        "consultation": {
+          "title": "Bedarf besprechen",
+          "description": "Wir klären Objekt, Umfang, Zeitpunkt und besondere Anforderungen."
+        },
+        "offer": {
+          "title": "Angebot erhalten",
+          "description": "Sie erhalten ein transparentes und passendes Angebot."
+        },
+        "cleaning": {
+          "title": "Reinigung starten",
+          "description": "Nach der Abstimmung führen wir die vereinbarten Leistungen durch."
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Unverbindlich anfragen",
+      "title": "Sie suchen eine zuverlässige Reinigung?",
+      "description": "Kontaktieren Sie uns und erzählen Sie uns kurz, welche Reinigungsleistung Sie benötigen. Wir besprechen gemeinsam die passende Lösung.",
+      "primaryButton": "Angebot anfragen",
+      "secondaryButton": "Jetzt anrufen"
+    }
   }
 }
