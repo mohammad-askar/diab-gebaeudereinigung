@@ -18,6 +18,7 @@ export type Company = {
   contact: ContactDetails;
   address: CompanyAddress;
   serviceArea: string[];
+  legal: LegalBusinessDetails;
 };
 
 export type ServiceIconName =
@@ -65,4 +66,30 @@ export type CompanyValue = {
 export type WorkingStep = {
   id: "understand" | "plan" | "execute" | "review";
   step: number;
+};
+export type LegalBusinessDetails = {
+  legalName?: string;
+  legalForm?: string;
+  representedBy?: string[];
+  registrationCourt?: string;
+  registrationNumber?: string;
+  vatId?: string;
+  taxNumber?: string;
+  supervisoryAuthority?: string;
+};
+
+export type HostingDetails = {
+  providerName?: string;
+  providerAddress?: string;
+  providerCountry?: string;
+  privacyPolicyUrl?: string;
+};
+
+export type WebsiteConfiguration = {
+  productionUrl?: string;
+  hosting: HostingDetails;
+  contactFormEmailDeliveryEnabled: boolean;
+  analyticsEnabled: boolean;
+  embeddedGoogleMapsEnabled: boolean;
+  externalGoogleMapsLinkEnabled: boolean;
 };

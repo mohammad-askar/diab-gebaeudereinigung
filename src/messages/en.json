@@ -408,5 +408,158 @@
         "spamDetected": "The enquiry could not be processed."
       }
     }
+  },
+  "ImprintPage": {
+  "metadata": {
+    "title": "Legal notice",
+    "description": "Provider identification and legal information for Diab Gebäudereinigung."
+  },
+  "eyebrow": "Legal information",
+  "title": "Legal notice",
+  "introduction": "Before publication, the following information must be completed and checked against the official business records.",
+  "warning": {
+    "title": "Notice before publication",
+    "description": "This page is currently a development template. Missing information must be replaced with confirmed business details and legally reviewed."
+  },
+  "provider": {
+    "title": "Provider information under Section 5 DDG",
+    "businessName": "Trading name",
+    "legalName": "Full legal name",
+    "legalForm": "Legal form",
+    "address": "Address for service",
+    "representedBy": "Represented by"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Telephone",
+    "email": "Email"
+  },
+  "registration": {
+    "title": "Register entry",
+    "notApplicable": "If no register entry exists, this section must be adapted accordingly.",
+    "court": "Registration court",
+    "number": "Registration number"
+  },
+  "tax": {
+    "title": "Tax information",
+    "vatId": "VAT identification number under Section 27a of the German VAT Act",
+    "taxNumberWarning": "A personal or business tax number should not be published without prior verification."
+  },
+  "responsibility": {
+    "title": "Person responsible for content",
+    "description": "The required content of this section depends on the type and scope of the published material and must be reviewed before publication."
+  },
+  "dispute": {
+    "title": "Consumer dispute resolution",
+    "description": "Before publication, it must be determined whether a statement concerning participation in dispute-resolution proceedings is required."
+  },
+  "liability": {
+    "title": "Liability for content and links",
+    "description": "An individually reviewed notice may be added here. General disclaimers do not remove statutory responsibilities."
+  },
+  "placeholders": {
+    "legalName": "ENTER FULL LEGAL NAME",
+    "legalForm": "ENTER LEGAL FORM",
+    "street": "ENTER STREET AND NUMBER",
+    "postalCode": "ENTER POSTAL CODE",
+    "city": "ENTER CITY",
+    "registrationCourt": "ENTER REGISTRATION COURT OR REMOVE SECTION",
+    "registrationNumber": "ENTER REGISTRATION NUMBER OR REMOVE SECTION",
+    "vatId": "ENTER VAT ID OR REMOVE SECTION",
+    "responsiblePerson": "REVIEW RESPONSIBLE PERSON"
+  }
+},
+  "PrivacyPage": {
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "Information about the processing of personal data on the Diab Gebäudereinigung website."
+    },
+    "eyebrow": "Privacy",
+    "title": "Privacy Policy",
+    "introduction": "This privacy policy describes the currently planned data processing on the website. Before publication, it must be adapted to the actual hosting, email services, and any other services that are used.",
+    "warning": {
+      "title": "Development Template",
+      "description": "The information regarding the controller, hosting provider, retention periods, recipients, and supervisory authority must be confirmed before publication."
+    },
+    "controller": {
+      "title": "1. Data Controller",
+      "description": "The controller within the meaning of the General Data Protection Regulation (GDPR) is:",
+      "missing": "INSERT FULL LEGAL NAME AND ADDRESS"
+    },
+    "general": {
+      "title": "2. General Information on Data Processing",
+      "description": "Personal data is processed only to the extent necessary to provide the website, respond to inquiries, or fulfill legal obligations.",
+      "legalBasis": "The applicable legal basis depends on the purpose of the processing and is described in the following sections."
+    },
+    "hosting": {
+      "title": "3. Hosting and Server Log Files",
+      "description": "When visiting the website, the hosting provider may process technically necessary data, including the IP address, date and time of access, requested resource, amount of data transferred, referrer, browser, and operating system.",
+      "purpose": "The processing serves the secure and technically stable operation of the website as well as error detection and abuse prevention.",
+      "provider": "Hosting Provider",
+      "providerMissing": "INSERT HOSTING PROVIDER AND CONTRACT DETAILS",
+      "retention": "The specific retention period of the server log files must be confirmed with the hosting provider and documented here.",
+      "legalBasis": "The legal basis may in particular be Article 6(1)(f) GDPR; the final assessment depends on the actual technical configuration."
+    },
+    "contact": {
+      "title": "4. Contact by Email, Telephone, and Contact Form",
+      "description": "If you contact us, we process the information you provide in order to respond to your inquiry and communicate with you.",
+      "data": "Depending on the contact method, this may include your name, email address, telephone number, selected service, and the content of your message.",
+      "legalBasis": "If the inquiry relates to the conclusion or performance of a contract, Article 6(1)(b) GDPR may apply. In other cases, processing may be based on Article 6(1)(f) GDPR.",
+      "retention": "The data will be deleted once it is no longer required to process the inquiry and statutory retention obligations have expired.",
+      "emailStatusDisabled": "The contact form email function is currently not enabled.",
+      "emailStatusEnabled": "The contact form email function is enabled. The provider, recipients, transmission methods, and legal basis must be documented here."
+    },
+    "consent": {
+      "title": "5. Consent Notice for the Contact Form",
+      "description": "Consent must be voluntary, informed, specific, and revocable. Before going live, it should be determined whether the contact form relies on consent or another legal basis.",
+      "withdrawal": "Any consent given may be withdrawn with effect for the future. The lawfulness of processing carried out before the withdrawal remains unaffected."
+    },
+    "maps": {
+      "title": "6. Google Maps",
+      "externalLink": "This website currently does not automatically load an embedded Google Maps map. Only an external link to Google Maps is provided.",
+      "externalEffect": "Only when you click the link will you leave this website, and Google may process your data according to its own policies.",
+      "embeddedWarning": "If an embedded map is introduced later, consent management, international data transfers, and privacy information must be reviewed again."
+    },
+    "fonts": {
+      "title": "7. Fonts",
+      "description": "Fonts integrated using next/font are provided locally during the build process and are not loaded directly from Google servers when visiting the website."
+    },
+    "cookies": {
+      "title": "8. Cookies and Access to End Devices",
+      "description": "The current version of the website does not use analytics or marketing cookies.",
+      "necessary": "Technically necessary storage or access may be permitted without consent. Any non-essential storage or access generally requires prior valid consent.",
+      "future": "If analytics, marketing, video, maps, or other third-party services are added later, this section must be updated and, where required, a consent banner must be implemented."
+    },
+    "recipients": {
+      "title": "9. Recipients and Data Processors",
+      "description": "Personal data may be shared with service providers responsible for hosting, email delivery, or technical maintenance.",
+      "missing": "ADD ALL ACTUAL RECIPIENTS, DATA PROCESSING AGREEMENTS, AND PROCESSING LOCATIONS"
+    },
+    "transfers": {
+      "title": "10. International Data Transfers",
+      "description": "Whether data is processed outside the European Economic Area depends on the service providers actually used and their configuration.",
+      "missing": "VERIFY INTERNATIONAL TRANSFERS AND SAFEGUARDS"
+    },
+    "rights": {
+      "title": "11. Rights of Data Subjects",
+      "description": "Subject to the legal requirements, you have the right to access, rectify, erase, restrict processing, data portability, and object to processing.",
+      "consent": "Where processing is based on consent, that consent may be withdrawn for the future."
+    },
+    "complaint": {
+      "title": "12. Right to Lodge a Complaint",
+      "description": "You have the right to lodge a complaint with a competent data protection supervisory authority.",
+      "authority": "The competent supervisory authority must be identified based on the company's registered office and specified here.",
+      "missing": "INSERT THE COMPETENT DATA PROTECTION AUTHORITY"
+    },
+    "security": {
+      "title": "13. Data Security",
+      "description": "The website should be provided via HTTPS. Technical and organizational measures must be appropriate to the risks associated with the processing."
+    },
+    "updates": {
+      "title": "14. Updates to this Privacy Policy",
+      "description": "This privacy policy must be updated whenever website functions, service providers, legal bases, or processing activities change.",
+      "dateLabel": "Last updated",
+      "date": "INSERT DATE BEFORE PUBLICATION"
+    }
   }
 }
