@@ -11,4 +11,7 @@ export const company: Company = {
     country: "Deutschland",
   },
   serviceArea: [],
+  legal: {
+    representedBy: ["Justyna Zyab", "Muwafak Zyab"],
+  },
 };

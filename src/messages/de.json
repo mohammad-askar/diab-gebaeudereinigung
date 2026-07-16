@@ -412,5 +412,158 @@
         "spamDetected": "Die Anfrage konnte nicht verarbeitet werden."
       }
     }
+  },
+  "ImprintPage": {
+  "metadata": {
+    "title": "Impressum",
+    "description": "Anbieterkennzeichnung und rechtliche Informationen zu Diab Gebäudereinigung."
+  },
+  "eyebrow": "Rechtliche Informationen",
+  "title": "Impressum",
+  "introduction": "Die folgenden Angaben müssen vor der Veröffentlichung mit den offiziellen Unternehmensdaten abgeglichen und vervollständigt werden.",
+  "warning": {
+    "title": "Hinweis vor der Veröffentlichung",
+    "description": "Diese Seite ist derzeit eine Entwicklungsvorlage. Fehlende Angaben müssen durch bestätigte Unternehmensdaten ersetzt und rechtlich geprüft werden."
+  },
+  "provider": {
+    "title": "Angaben gemäß § 5 DDG",
+    "businessName": "Geschäftsbezeichnung",
+    "legalName": "Vollständiger rechtlicher Name",
+    "legalForm": "Rechtsform",
+    "address": "Ladungsfähige Anschrift",
+    "representedBy": "Vertreten durch"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-Mail"
+  },
+  "registration": {
+    "title": "Registereintrag",
+    "notApplicable": "Falls kein Registereintrag besteht, ist dieser Abschnitt entsprechend anzupassen.",
+    "court": "Registergericht",
+    "number": "Registernummer"
+  },
+  "tax": {
+    "title": "Steuerliche Angaben",
+    "vatId": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG",
+    "taxNumberWarning": "Eine persönliche oder betriebliche Steuernummer sollte nicht ohne Prüfung öffentlich veröffentlicht werden."
+  },
+  "responsibility": {
+    "title": "Verantwortlich für den Inhalt",
+    "description": "Der erforderliche Inhalt dieses Abschnitts hängt von Art und Umfang der veröffentlichten Inhalte ab und muss vor Veröffentlichung geprüft werden."
+  },
+  "dispute": {
+    "title": "Verbraucherstreitbeilegung",
+    "description": "Vor Veröffentlichung ist zu klären, ob und welche Erklärung zur Teilnahme an einem Streitbeilegungsverfahren erforderlich ist."
+  },
+  "liability": {
+    "title": "Haftung für Inhalte und Links",
+    "description": "Ein individuell geprüfter Haftungshinweis kann hier ergänzt werden. Allgemeine Haftungsausschlüsse beseitigen keine gesetzlichen Verantwortlichkeiten."
+  },
+  "placeholders": {
+    "legalName": "RECHTLICHEN NAMEN EINFÜGEN",
+    "legalForm": "RECHTSFORM EINFÜGEN",
+    "street": "STRASSE UND HAUSNUMMER EINFÜGEN",
+    "postalCode": "POSTLEITZAHL EINFÜGEN",
+    "city": "ORT EINFÜGEN",
+    "registrationCourt": "REGISTERGERICHT EINFÜGEN ODER ABSCHNITT ENTFERNEN",
+    "registrationNumber": "REGISTERNUMMER EINFÜGEN ODER ABSCHNITT ENTFERNEN",
+    "vatId": "UST-ID EINFÜGEN ODER ABSCHNITT ENTFERNEN",
+    "responsiblePerson": "VERANTWORTLICHE PERSON PRÜFEN"
   }
+},
+"PrivacyPage": {
+  "metadata": {
+    "title": "Datenschutzerklärung",
+    "description": "Informationen zur Verarbeitung personenbezogener Daten auf der Website von Diab Gebäudereinigung."
+  },
+  "eyebrow": "Datenschutz",
+  "title": "Datenschutzerklärung",
+  "introduction": "Diese Datenschutzerklärung beschreibt die derzeit geplante Datenverarbeitung der Website. Sie muss vor Veröffentlichung an Hosting, E-Mail-Versand und weitere tatsächlich verwendete Dienste angepasst werden.",
+  "warning": {
+    "title": "Entwicklungsvorlage",
+    "description": "Die Angaben zu Verantwortlichem, Hosting, Speicherdauer, Empfängern und Aufsichtsbehörde müssen vor Veröffentlichung bestätigt werden."
+  },
+  "controller": {
+    "title": "1. Verantwortlicher",
+    "description": "Verantwortlicher im Sinne der Datenschutz-Grundverordnung ist:",
+    "missing": "VOLLSTÄNDIGEN RECHTLICHEN NAMEN UND ANSCHRIFT EINFÜGEN"
+  },
+  "general": {
+    "title": "2. Allgemeine Hinweise zur Datenverarbeitung",
+    "description": "Personenbezogene Daten werden nur verarbeitet, soweit dies für die Bereitstellung der Website, die Bearbeitung von Anfragen oder die Erfüllung gesetzlicher Pflichten erforderlich ist.",
+    "legalBasis": "Die jeweilige Rechtsgrundlage hängt vom Zweck der Verarbeitung ab und wird in den folgenden Abschnitten beschrieben."
+  },
+  "hosting": {
+    "title": "3. Hosting und Server-Logdateien",
+    "description": "Beim Aufruf der Website kann der Hostinganbieter technisch erforderliche Daten verarbeiten, insbesondere IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Ressource, übertragene Datenmenge, Referrer, Browser und Betriebssystem.",
+    "purpose": "Die Verarbeitung dient der sicheren und technisch stabilen Bereitstellung der Website sowie der Fehler- und Missbrauchserkennung.",
+    "provider": "Hostinganbieter",
+    "providerMissing": "HOSTINGANBIETER UND VERTRAGSDATEN EINFÜGEN",
+    "retention": "Die konkrete Speicherdauer der Server-Logdateien muss beim Hostinganbieter geprüft und hier ergänzt werden.",
+    "legalBasis": "Als Rechtsgrundlage kommt insbesondere Art. 6 Abs. 1 lit. f DSGVO in Betracht; die endgültige Bewertung muss anhand der tatsächlichen Konfiguration erfolgen."
+  },
+  "contact": {
+    "title": "4. Kontaktaufnahme per E-Mail, Telefon und Formular",
+    "description": "Wenn Sie uns kontaktieren, verarbeiten wir die von Ihnen übermittelten Angaben zur Bearbeitung Ihrer Anfrage und zur Kommunikation mit Ihnen.",
+    "data": "Je nach Kontaktweg können insbesondere Name, E-Mail-Adresse, Telefonnummer, ausgewählte Leistung sowie Inhalt der Nachricht verarbeitet werden.",
+    "legalBasis": "Soweit die Anfrage auf den Abschluss oder die Durchführung eines Vertrags gerichtet ist, kann Art. 6 Abs. 1 lit. b DSGVO einschlägig sein. In anderen Fällen kann die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruhen.",
+    "retention": "Die Daten werden gelöscht, sobald sie für die Bearbeitung der Anfrage und gesetzliche Aufbewahrungspflichten nicht mehr erforderlich sind.",
+    "emailStatusDisabled": "Der E-Mail-Versand des Kontaktformulars ist derzeit noch nicht aktiviert.",
+    "emailStatusEnabled": "Der E-Mail-Versand des Kontaktformulars ist aktiviert. Anbieter, Empfänger, Übermittlungswege und Vertragsgrundlagen müssen hier dokumentiert werden."
+  },
+  "consent": {
+    "title": "5. Hinweis zur Einwilligung im Kontaktformular",
+    "description": "Eine Einwilligung muss freiwillig, informiert, eindeutig und widerruflich sein. Vor dem produktiven Einsatz ist zu prüfen, ob das Formular auf Einwilligung oder einer anderen Rechtsgrundlage beruhen soll.",
+    "withdrawal": "Eine erteilte Einwilligung kann mit Wirkung für die Zukunft widerrufen werden. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt unberührt."
+  },
+  "maps": {
+    "title": "6. Google Maps",
+    "externalLink": "Auf dieser Website wird derzeit keine eingebettete Google-Maps-Karte automatisch geladen. Es wird lediglich ein externer Link zu Google Maps angeboten.",
+    "externalEffect": "Erst wenn Sie den Link anklicken, verlassen Sie diese Website und Google kann Daten nach eigenen Bedingungen verarbeiten.",
+    "embeddedWarning": "Falls später eine eingebettete Karte eingesetzt wird, müssen Einwilligungsmanagement, Drittlandübermittlung und Datenschutzhinweise neu geprüft werden."
+  },
+  "fonts": {
+    "title": "7. Schriftarten",
+    "description": "Die über next/font eingebundenen Schriftarten werden im Rahmen des Builds lokal bereitgestellt und beim Seitenaufruf nicht direkt von Google-Servern geladen."
+  },
+  "cookies": {
+    "title": "8. Cookies und Zugriff auf Endgeräte",
+    "description": "Die aktuelle Version der Website verwendet keine Analyse- oder Marketing-Cookies.",
+    "necessary": "Technisch unbedingt erforderliche Speicherungen oder Zugriffe können ohne Einwilligung zulässig sein. Nicht erforderliche Zugriffe dürfen grundsätzlich erst nach wirksamer Einwilligung erfolgen.",
+    "future": "Wenn später Analyse-, Marketing-, Video-, Karten- oder andere Drittanbieterdienste ergänzt werden, muss dieser Abschnitt angepasst und gegebenenfalls ein Einwilligungsbanner eingerichtet werden."
+  },
+  "recipients": {
+    "title": "9. Empfänger und Auftragsverarbeiter",
+    "description": "Personenbezogene Daten können an Dienstleister übermittelt werden, die Hosting, E-Mail-Versand oder technische Wartung übernehmen.",
+    "missing": "ALLE TATSÄCHLICHEN EMPFÄNGER, AV-VERTRÄGE UND VERARBEITUNGSORTE ERGÄNZEN"
+  },
+  "transfers": {
+    "title": "10. Übermittlung in Drittländer",
+    "description": "Ob Daten außerhalb des Europäischen Wirtschaftsraums verarbeitet werden, hängt von den tatsächlich verwendeten Anbietern und deren Konfiguration ab.",
+    "missing": "DRITTLANDÜBERMITTLUNGEN UND GARANTIEN PRÜFEN"
+  },
+  "rights": {
+    "title": "11. Rechte betroffener Personen",
+    "description": "Unter den gesetzlichen Voraussetzungen bestehen insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch.",
+    "consent": "Soweit eine Verarbeitung auf Einwilligung beruht, kann diese für die Zukunft widerrufen werden."
+  },
+  "complaint": {
+    "title": "12. Beschwerderecht",
+    "description": "Sie haben das Recht, sich bei einer zuständigen Datenschutzaufsichtsbehörde zu beschweren.",
+    "authority": "Die für das Unternehmen zuständige Aufsichtsbehörde muss anhand des Unternehmenssitzes ermittelt und hier eingetragen werden.",
+    "missing": "ZUSTÄNDIGE LANDESDATENSCHUTZBEHÖRDE EINFÜGEN"
+  },
+  "security": {
+    "title": "13. Datensicherheit",
+    "description": "Die Website soll über HTTPS bereitgestellt werden. Technische und organisatorische Maßnahmen müssen dem Risiko der Verarbeitung angemessen sein."
+  },
+  "updates": {
+    "title": "14. Aktualität dieser Datenschutzerklärung",
+    "description": "Diese Datenschutzerklärung muss aktualisiert werden, wenn sich Funktionen, Anbieter, Rechtsgrundlagen oder Verarbeitungsabläufe ändern.",
+    "dateLabel": "Stand",
+    "date": "VOR VERÖFFENTLICHUNG DATUM EINFÜGEN"
+  }
+}
 }
