@@ -9,6 +9,9 @@ export async function ContactCta() {
   const primaryPhone = company.contact.phoneNumbers[0];
   const phoneHref = primaryPhone.replace(/\s/g, "");
 
+  const buttonClass =
+    "inline-flex min-h-12 items-center justify-center rounded-full border border-white/40 px-7 py-3 font-bold text-white transition hover:bg-white/10";
+
   return (
     <section className="bg-white py-20 sm:py-24">
       <div className="mx-auto max-w-7xl px-6">
@@ -35,17 +38,11 @@ export async function ContactCta() {
             <p className="mt-5 text-lg leading-8 text-white/80">{t("description")}</p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
-              <Link
-                href="/kontakt"
-                className="text-brand-blue-dark hover:bg-surface inline-flex min-h-12 items-center justify-center rounded-full bg-white px-7 py-3 font-bold transition"
-              >
+              <Link href="/kontakt" className={buttonClass}>
                 {t("primaryButton")}
               </Link>
 
-              <a
-                href={`tel:${phoneHref}`}
-                className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/40 px-7 py-3 font-bold text-white transition hover:bg-white/10"
-              >
+              <a href={`tel:${phoneHref}`} className={buttonClass}>
                 {t("secondaryButton")}
               </a>
             </div>
