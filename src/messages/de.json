@@ -32,7 +32,8 @@
     "openMenu": "Menü öffnen",
     "closeMenu": "Menü schließen",
     "callUs": "Jetzt anrufen",
-    "contact": "Angebot anfragen"
+    "contact": "Angebot anfragen",
+    "language": "Sprache"
   },
   "Footer": {
     "description": "Zuverlässige und professionelle Reinigung für Hotels, Unternehmen und private Haushalte.",
@@ -40,7 +41,9 @@
     "services": "Leistungen",
     "contact": "Kontakt",
     "legal": "Rechtliches",
-    "copyright": "Alle Rechte vorbehalten."
+    "copyright": "Alle Rechte vorbehalten.",
+    "callUs": "Jetzt anrufen",
+    "contactCta": "Kontakt aufnehmen"
   },
   "HomePage": {
     "hero": {

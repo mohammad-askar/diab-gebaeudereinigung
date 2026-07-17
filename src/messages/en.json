@@ -32,7 +32,8 @@
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "callUs": "Call now",
-    "contact": "Request a quote"
+    "contact": "Request a quote",
+    "language": "Language"
   },
   "Footer": {
     "description": "Reliable and professional cleaning for hotels, businesses and private homes.",
@@ -40,7 +41,9 @@
     "services": "Services",
     "contact": "Contact",
     "legal": "Legal",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "callUs": "Call now",
+    "contactCta": "Get in touch"
   },
   "HomePage": {
     "hero": {

@@ -36,7 +36,7 @@ export async function ServicesContactCta() {
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
               href="/kontakt"
-              className="text-brand-blue-dark hover:bg-surface inline-flex min-h-12 items-center justify-center rounded-full bg-white px-7 py-3 font-bold transition"
+              className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/40 px-7 py-3 font-bold text-white transition hover:bg-white/10"
             >
               {t("primaryButton")}
             </Link>
