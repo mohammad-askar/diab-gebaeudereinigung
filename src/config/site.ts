@@ -1,7 +1,7 @@
 import type { WebsiteConfiguration } from "@/types";
 
 export const siteConfiguration: WebsiteConfiguration = {
-  productionUrl: undefined,
+  productionUrl: process.env.NEXT_PUBLIC_SITE_URL,
   hosting: {
     providerName: undefined,
     providerAddress: undefined,

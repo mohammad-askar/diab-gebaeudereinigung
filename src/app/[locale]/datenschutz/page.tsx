@@ -6,6 +6,8 @@ import { LegalPlaceholder } from "@/components/legal/legal-placeholder";
 import { LegalSection } from "@/components/legal/legal-section";
 import { siteConfiguration } from "@/config/site";
 import { company } from "@/data/company";
+import type { Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 type PrivacyPageProps = {
   params: Promise<{
@@ -13,9 +15,7 @@ type PrivacyPageProps = {
   }>;
 };
 
-export async function generateMetadata({
-  params,
-}: PrivacyPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PrivacyPageProps): Promise<Metadata> {
   const { locale } = await params;
 
   const t = await getTranslations({
@@ -23,10 +23,13 @@ export async function generateMetadata({
     namespace: "PrivacyPage.metadata",
   });
 
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/datenschutz",
     title: t("title"),
     description: t("description"),
-  };
+    noIndex: true,
+  });
 }
 
 export default async function PrivacyPage({ params }: PrivacyPageProps) {
@@ -36,22 +39,13 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
 
   const t = await getTranslations("PrivacyPage");
 
-  const legalName =
-    company.legal.legalName ??
-    company.legalName ??
-    company.name;
+  const legalName = company.legal.legalName ?? company.legalName ?? company.name;
 
   const hasCompleteAddress =
-    company.address.street &&
-    company.address.postalCode &&
-    company.address.city;
+    company.address.street && company.address.postalCode && company.address.city;
 
   return (
-    <LegalPageLayout
-      eyebrow={t("eyebrow")}
-      title={t("title")}
-      introduction={t("introduction")}
-    >
+    <LegalPageLayout eyebrow={t("eyebrow")} title={t("title")} introduction={t("introduction")}>
       <div className="rounded-3xl border border-amber-300 bg-amber-50 p-6 text-amber-950">
         <h2 className="text-xl font-bold">{t("warning.title")}</h2>
         <p className="mt-3 leading-7">{t("warning.description")}</p>
@@ -76,9 +70,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
         )}
 
         <p>
-          <a href={`mailto:${company.contact.email}`}>
-            {company.contact.email}
-          </a>
+          <a href={`mailto:${company.contact.email}`}>{company.contact.email}</a>
         </p>
       </LegalSection>
 
@@ -165,8 +157,7 @@ export default async function PrivacyPage({ params }: PrivacyPageProps) {
       <LegalSection title={t("updates.title")}>
         <p>{t("updates.description")}</p>
         <p>
-          <strong>{t("updates.dateLabel")}:</strong>{" "}
-          <LegalPlaceholder label={t("updates.date")} />
+          <strong>{t("updates.dateLabel")}:</strong> <LegalPlaceholder label={t("updates.date")} />
         </p>
       </LegalSection>
     </LegalPageLayout>

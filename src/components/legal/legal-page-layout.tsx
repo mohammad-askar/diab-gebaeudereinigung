@@ -7,27 +7,20 @@ type LegalPageLayoutProps = {
   children: ReactNode;
 };
 
-export function LegalPageLayout({
-  eyebrow,
-  title,
-  introduction,
-  children,
-}: LegalPageLayoutProps) {
+export function LegalPageLayout({ eyebrow, title, introduction, children }: LegalPageLayoutProps) {
   return (
     <main>
       <section className="bg-surface">
         <div className="mx-auto max-w-5xl px-6 py-20 sm:py-24">
-          <p className="text-sm font-bold tracking-[0.16em] text-brand-green uppercase">
+          <p className="text-brand-green text-sm font-bold tracking-[0.16em] uppercase">
             {eyebrow}
           </p>
 
-          <h1 className="mt-4 text-4xl font-bold tracking-tight text-brand-blue-dark sm:text-5xl">
+          <h1 className="text-brand-blue-dark mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
             {title}
           </h1>
 
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-muted">
-            {introduction}
-          </p>
+          <p className="text-muted mt-6 max-w-3xl text-lg leading-8">{introduction}</p>
         </div>
       </section>
 

@@ -7,6 +7,8 @@ import { CompanyIntroduction } from "@/components/about/company-introduction";
 import { CompanyValues } from "@/components/about/company-values";
 import { OwnersSection } from "@/components/about/owners-section";
 import { WorkingApproach } from "@/components/about/working-approach";
+import type { Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 type AboutPageProps = {
   params: Promise<{
@@ -22,10 +24,12 @@ export async function generateMetadata({ params }: AboutPageProps): Promise<Meta
     namespace: "AboutPage.metadata",
   });
 
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/ueber-uns",
     title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function AboutPage({ params }: AboutPageProps) {

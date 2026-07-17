@@ -410,65 +410,65 @@
     }
   },
   "ImprintPage": {
-  "metadata": {
+    "metadata": {
+      "title": "Legal notice",
+      "description": "Provider identification and legal information for Diab Gebäudereinigung."
+    },
+    "eyebrow": "Legal information",
     "title": "Legal notice",
-    "description": "Provider identification and legal information for Diab Gebäudereinigung."
+    "introduction": "Before publication, the following information must be completed and checked against the official business records.",
+    "warning": {
+      "title": "Notice before publication",
+      "description": "This page is currently a development template. Missing information must be replaced with confirmed business details and legally reviewed."
+    },
+    "provider": {
+      "title": "Provider information under Section 5 DDG",
+      "businessName": "Trading name",
+      "legalName": "Full legal name",
+      "legalForm": "Legal form",
+      "address": "Address for service",
+      "representedBy": "Represented by"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "Telephone",
+      "email": "Email"
+    },
+    "registration": {
+      "title": "Register entry",
+      "notApplicable": "If no register entry exists, this section must be adapted accordingly.",
+      "court": "Registration court",
+      "number": "Registration number"
+    },
+    "tax": {
+      "title": "Tax information",
+      "vatId": "VAT identification number under Section 27a of the German VAT Act",
+      "taxNumberWarning": "A personal or business tax number should not be published without prior verification."
+    },
+    "responsibility": {
+      "title": "Person responsible for content",
+      "description": "The required content of this section depends on the type and scope of the published material and must be reviewed before publication."
+    },
+    "dispute": {
+      "title": "Consumer dispute resolution",
+      "description": "Before publication, it must be determined whether a statement concerning participation in dispute-resolution proceedings is required."
+    },
+    "liability": {
+      "title": "Liability for content and links",
+      "description": "An individually reviewed notice may be added here. General disclaimers do not remove statutory responsibilities."
+    },
+    "placeholders": {
+      "legalName": "ENTER FULL LEGAL NAME",
+      "legalForm": "ENTER LEGAL FORM",
+      "street": "ENTER STREET AND NUMBER",
+      "postalCode": "ENTER POSTAL CODE",
+      "city": "ENTER CITY",
+      "registrationCourt": "ENTER REGISTRATION COURT OR REMOVE SECTION",
+      "registrationNumber": "ENTER REGISTRATION NUMBER OR REMOVE SECTION",
+      "vatId": "ENTER VAT ID OR REMOVE SECTION",
+      "responsiblePerson": "REVIEW RESPONSIBLE PERSON"
+    }
   },
-  "eyebrow": "Legal information",
-  "title": "Legal notice",
-  "introduction": "Before publication, the following information must be completed and checked against the official business records.",
-  "warning": {
-    "title": "Notice before publication",
-    "description": "This page is currently a development template. Missing information must be replaced with confirmed business details and legally reviewed."
-  },
-  "provider": {
-    "title": "Provider information under Section 5 DDG",
-    "businessName": "Trading name",
-    "legalName": "Full legal name",
-    "legalForm": "Legal form",
-    "address": "Address for service",
-    "representedBy": "Represented by"
-  },
-  "contact": {
-    "title": "Contact",
-    "phone": "Telephone",
-    "email": "Email"
-  },
-  "registration": {
-    "title": "Register entry",
-    "notApplicable": "If no register entry exists, this section must be adapted accordingly.",
-    "court": "Registration court",
-    "number": "Registration number"
-  },
-  "tax": {
-    "title": "Tax information",
-    "vatId": "VAT identification number under Section 27a of the German VAT Act",
-    "taxNumberWarning": "A personal or business tax number should not be published without prior verification."
-  },
-  "responsibility": {
-    "title": "Person responsible for content",
-    "description": "The required content of this section depends on the type and scope of the published material and must be reviewed before publication."
-  },
-  "dispute": {
-    "title": "Consumer dispute resolution",
-    "description": "Before publication, it must be determined whether a statement concerning participation in dispute-resolution proceedings is required."
-  },
-  "liability": {
-    "title": "Liability for content and links",
-    "description": "An individually reviewed notice may be added here. General disclaimers do not remove statutory responsibilities."
-  },
-  "placeholders": {
-    "legalName": "ENTER FULL LEGAL NAME",
-    "legalForm": "ENTER LEGAL FORM",
-    "street": "ENTER STREET AND NUMBER",
-    "postalCode": "ENTER POSTAL CODE",
-    "city": "ENTER CITY",
-    "registrationCourt": "ENTER REGISTRATION COURT OR REMOVE SECTION",
-    "registrationNumber": "ENTER REGISTRATION NUMBER OR REMOVE SECTION",
-    "vatId": "ENTER VAT ID OR REMOVE SECTION",
-    "responsiblePerson": "REVIEW RESPONSIBLE PERSON"
-  }
-},
   "PrivacyPage": {
     "metadata": {
       "title": "Privacy Policy",
@@ -561,5 +561,12 @@
       "dateLabel": "Last updated",
       "date": "INSERT DATE BEFORE PUBLICATION"
     }
+  },
+  "NotFoundPage": {
+    "eyebrow": "Page not found",
+    "title": "This page is not available",
+    "description": "The requested page may have been moved, deleted or the address may be incorrect.",
+    "homeButton": "Go to homepage",
+    "contactButton": "Contact us"
   }
 }
