@@ -5,6 +5,8 @@ import { LegalPageLayout } from "@/components/legal/legal-page-layout";
 import { LegalPlaceholder } from "@/components/legal/legal-placeholder";
 import { LegalSection } from "@/components/legal/legal-section";
 import { company } from "@/data/company";
+import type { Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 type ImprintPageProps = {
   params: Promise<{
@@ -12,9 +14,7 @@ type ImprintPageProps = {
   }>;
 };
 
-export async function generateMetadata({
-  params,
-}: ImprintPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: ImprintPageProps): Promise<Metadata> {
   const { locale } = await params;
 
   const t = await getTranslations({
@@ -22,10 +22,13 @@ export async function generateMetadata({
     namespace: "ImprintPage.metadata",
   });
 
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/impressum",
     title: t("title"),
     description: t("description"),
-  };
+    noIndex: true,
+  });
 }
 
 export default async function ImprintPage({ params }: ImprintPageProps) {
@@ -36,20 +39,13 @@ export default async function ImprintPage({ params }: ImprintPageProps) {
   const t = await getTranslations("ImprintPage");
 
   const legalName = company.legal.legalName ?? company.legalName;
-  const representatives =
-    company.legal.representedBy?.join(", ") || company.owners.join(", ");
+  const representatives = company.legal.representedBy?.join(", ") || company.owners.join(", ");
 
   const hasCompleteAddress =
-    company.address.street &&
-    company.address.postalCode &&
-    company.address.city;
+    company.address.street && company.address.postalCode && company.address.city;
 
   return (
-    <LegalPageLayout
-      eyebrow={t("eyebrow")}
-      title={t("title")}
-      introduction={t("introduction")}
-    >
+    <LegalPageLayout eyebrow={t("eyebrow")} title={t("title")} introduction={t("introduction")}>
       <div className="rounded-3xl border border-amber-300 bg-amber-50 p-6 text-amber-950">
         <h2 className="text-xl font-bold">{t("warning.title")}</h2>
         <p className="mt-3 leading-7">{t("warning.description")}</p>
@@ -62,16 +58,12 @@ export default async function ImprintPage({ params }: ImprintPageProps) {
 
         <p>
           <strong>{t("provider.legalName")}:</strong>{" "}
-          {legalName ?? (
-            <LegalPlaceholder label={t("placeholders.legalName")} />
-          )}
+          {legalName ?? <LegalPlaceholder label={t("placeholders.legalName")} />}
         </p>
 
         <p>
           <strong>{t("provider.legalForm")}:</strong>{" "}
-          {company.legal.legalForm ?? (
-            <LegalPlaceholder label={t("placeholders.legalForm")} />
-          )}
+          {company.legal.legalForm ?? <LegalPlaceholder label={t("placeholders.legalForm")} />}
         </p>
 
         <div>
@@ -114,9 +106,7 @@ export default async function ImprintPage({ params }: ImprintPageProps) {
 
         <p>
           <strong>{t("contact.email")}:</strong>{" "}
-          <a href={`mailto:${company.contact.email}`}>
-            {company.contact.email}
-          </a>
+          <a href={`mailto:${company.contact.email}`}>{company.contact.email}</a>
         </p>
       </LegalSection>
 
@@ -126,18 +116,14 @@ export default async function ImprintPage({ params }: ImprintPageProps) {
         <p>
           <strong>{t("registration.court")}:</strong>{" "}
           {company.legal.registrationCourt ?? (
-            <LegalPlaceholder
-              label={t("placeholders.registrationCourt")}
-            />
+            <LegalPlaceholder label={t("placeholders.registrationCourt")} />
           )}
         </p>
 
         <p>
           <strong>{t("registration.number")}:</strong>{" "}
           {company.legal.registrationNumber ?? (
-            <LegalPlaceholder
-              label={t("placeholders.registrationNumber")}
-            />
+            <LegalPlaceholder label={t("placeholders.registrationNumber")} />
           )}
         </p>
       </LegalSection>
@@ -145,9 +131,7 @@ export default async function ImprintPage({ params }: ImprintPageProps) {
       <LegalSection title={t("tax.title")}>
         <p>
           <strong>{t("tax.vatId")}:</strong>{" "}
-          {company.legal.vatId ?? (
-            <LegalPlaceholder label={t("placeholders.vatId")} />
-          )}
+          {company.legal.vatId ?? <LegalPlaceholder label={t("placeholders.vatId")} />}
         </p>
 
         <p>{t("tax.taxNumberWarning")}</p>

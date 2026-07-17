@@ -6,6 +6,8 @@ import { ContactFormSection } from "@/components/contact/contact-form-section";
 import { ContactHero } from "@/components/contact/contact-hero";
 
 import { submitContactForm } from "./actions";
+import type { Locale } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
 
 type ContactPageProps = {
   params: Promise<{
@@ -21,10 +23,12 @@ export async function generateMetadata({ params }: ContactPageProps): Promise<Me
     namespace: "ContactPage.metadata",
   });
 
-  return {
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/kontakt",
     title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function ContactPage({ params }: ContactPageProps) {

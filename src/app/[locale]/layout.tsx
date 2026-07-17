@@ -5,7 +5,9 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
-import { routing } from "@/i18n/routing";
+import { buildPageMetadata } from "@/lib/seo";
+import { routing, type Locale } from "@/i18n/routing";
+import { LocalBusinessJsonLd } from "@/components/seo/local-business-json-ld";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -42,13 +44,12 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
     namespace: "Metadata",
   });
 
-  return {
-    title: {
-      default: t("title"),
-      template: `%s | ${t("title")}`,
-    },
+  return buildPageMetadata({
+    locale: locale as Locale,
+    pathname: "/",
+    title: t("title"),
     description: t("description"),
-  };
+  });
 }
 
 export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
@@ -66,6 +67,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   return (
     <html lang={locale} dir={isArabic ? "rtl" : "ltr"}>
       <body className={`${manrope.variable} ${notoSansArabic.variable} antialiased`}>
+        <LocalBusinessJsonLd />
         <NextIntlClientProvider messages={messages}>
           <a
             href="#main-content"
