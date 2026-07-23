@@ -5,15 +5,10 @@ import { company } from "@/data/company";
 
 export async function OwnersSection() {
   const t = await getTranslations("AboutPage.owners");
-
-  const owners = [
+  const teamMembers = [
     {
       name: company.owners[0],
-      role: t("firstOwnerRole"),
-    },
-    {
-      name: company.owners[1],
-      role: t("secondOwnerRole"),
+      role: t("ownerRole"),
     },
   ];
 
@@ -28,22 +23,22 @@ export async function OwnersSection() {
         />
 
         <div className="mx-auto mt-12 grid max-w-3xl gap-6 sm:grid-cols-2">
-          {owners.map((owner) => (
+          {teamMembers.map((member) => (
             <article
-              key={owner.name}
+              key={member.name}
               className="border-border rounded-3xl border bg-white p-7 text-center"
             >
               <div className="bg-brand-blue/10 text-brand-blue mx-auto flex size-20 items-center justify-center rounded-full text-2xl font-bold">
-                {owner.name
+                {member.name
                   .split(" ")
                   .map((part) => part[0])
                   .join("")
                   .slice(0, 2)}
               </div>
 
-              <h3 className="text-brand-blue-dark mt-5 text-xl font-bold">{owner.name}</h3>
+              <h3 className="text-brand-blue-dark mt-5 text-xl font-bold">{member.name}</h3>
 
-              <p className="text-muted mt-2">{owner.role}</p>
+              <p className="text-muted mt-2">{member.role}</p>
             </article>
           ))}
         </div>

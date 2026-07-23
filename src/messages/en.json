@@ -288,32 +288,31 @@
       "descriptionThree": "Our goal is reliable cooperation and a consistently well-maintained appearance for your premises."
     },
     "owners": {
-      "eyebrow": "Personal contacts",
-      "title": "Justyna and Muwafak Zyab",
-      "description": "Personal support enables direct communication and efficient coordination of the requested cleaning services.",
-      "firstOwnerRole": "Contact person",
-      "secondOwnerRole": "Contact person"
+      "eyebrow": "Personal support",
+      "title": "A direct and personal contact",
+      "description": "As the business owner, Justyna Agnieszka Zyab provides direct coordination, clear communication and personally managed cleaning services.",
+      "ownerRole": "Business owner"
     },
     "values": {
       "eyebrow": "Our values",
-      "title": "What matters to us in our daily work",
-      "description": "Good cleaning services begin with clear agreements and responsible treatment of our clients’ premises.",
+      "title": "What defines our work?",
+      "description": "We focus on reliability, quality, flexibility and clear communication in every service.",
       "items": {
         "reliability": {
           "title": "Reliability",
-          "description": "Agreed appointments and tasks are carried out carefully."
+          "description": "We keep agreed appointments and carry out every cleaning task carefully and responsibly."
         },
         "quality": {
-          "title": "Attention to detail",
-          "description": "We focus on details and a consistently well-maintained appearance."
+          "title": "Quality",
+          "description": "We aim to deliver clean and orderly results tailored to each customer’s needs."
         },
         "flexibility": {
           "title": "Flexibility",
-          "description": "The scope of service and working times are arranged individually."
+          "description": "We adapt to the property, working hours and the specific service requirements."
         },
         "communication": {
           "title": "Clear communication",
-          "description": "Questions, requests and changes are discussed directly and transparently."
+          "description": "We coordinate directly and clearly with the customer before and during the work."
         }
       }
     },
@@ -364,8 +363,9 @@
       "description": "For quick coordination, call us directly. Alternatively, send your enquiry through the form.",
       "phoneTitle": "Telephone",
       "emailTitle": "Email",
+      "emailButton": "Send an email",
       "locationTitle": "Service area",
-      "locationValue": "Germany – exact service area by arrangement",
+      "locationValue": "Güterstraße 65, 54295 Trier, Germany",
       "mapTitle": "Location and directions",
       "mapDescription": "The map is not loaded automatically. The link opens Google Maps in a new window.",
       "mapButton": "Open Google Maps"
@@ -419,7 +419,7 @@
     },
     "eyebrow": "Legal information",
     "title": "Legal notice",
-    "introduction": "Before publication, the following information must be completed and checked against the official business records.",
+    "introduction": "This page contains the legally required provider information for Diab Gebäudereinigung & Reinigungsservice.",
     "warning": {
       "title": "Notice before publication",
       "description": "This page is currently a development template. Missing information must be replaced with confirmed business details and legally reviewed."
@@ -430,7 +430,8 @@
       "legalName": "Full legal name",
       "legalForm": "Legal form",
       "address": "Address for service",
-      "representedBy": "Represented by"
+      "representedBy": "Represented by",
+      "chamber": "Responsible chamber"
     },
     "contact": {
       "title": "Contact",
@@ -445,13 +446,9 @@
     },
     "tax": {
       "title": "Tax information",
-      "vatId": "VAT identification number under Section 27a of the German VAT Act",
-      "taxNumberWarning": "A personal or business tax number should not be published without prior verification."
+      "vatId": "VAT identification number under Section 27a of the German VAT Act"
     },
-    "responsibility": {
-      "title": "Person responsible for content",
-      "description": "The required content of this section depends on the type and scope of the published material and must be reviewed before publication."
-    },
+
     "dispute": {
       "title": "Consumer dispute resolution",
       "description": "Before publication, it must be determined whether a statement concerning participation in dispute-resolution proceedings is required."
@@ -468,8 +465,7 @@
       "city": "ENTER CITY",
       "registrationCourt": "ENTER REGISTRATION COURT OR REMOVE SECTION",
       "registrationNumber": "ENTER REGISTRATION NUMBER OR REMOVE SECTION",
-      "vatId": "ENTER VAT ID OR REMOVE SECTION",
-      "responsiblePerson": "REVIEW RESPONSIBLE PERSON"
+      "vatId": "ENTER VAT ID OR REMOVE SECTION"
     }
   },
   "PrivacyPage": {
@@ -480,10 +476,7 @@
     "eyebrow": "Privacy",
     "title": "Privacy Policy",
     "introduction": "This privacy policy describes the currently planned data processing on the website. Before publication, it must be adapted to the actual hosting, email services, and any other services that are used.",
-    "warning": {
-      "title": "Development Template",
-      "description": "The information regarding the controller, hosting provider, retention periods, recipients, and supervisory authority must be confirmed before publication."
-    },
+
     "controller": {
       "title": "1. Data Controller",
       "description": "The controller within the meaning of the General Data Protection Regulation (GDPR) is:",
@@ -501,7 +494,8 @@
       "provider": "Hosting Provider",
       "providerMissing": "INSERT HOSTING PROVIDER AND CONTRACT DETAILS",
       "retention": "The specific retention period of the server log files must be confirmed with the hosting provider and documented here.",
-      "legalBasis": "The legal basis may in particular be Article 6(1)(f) GDPR; the final assessment depends on the actual technical configuration."
+      "legalBasis": "The legal basis may in particular be Article 6(1)(f) GDPR; the final assessment depends on the actual technical configuration.",
+      "privacyLink": "Vercel privacy notice"
     },
     "contact": {
       "title": "4. Contact by Email, Telephone, and Contact Form",
@@ -534,14 +528,14 @@
       "future": "If analytics, marketing, video, maps, or other third-party services are added later, this section must be updated and, where required, a consent banner must be implemented."
     },
     "recipients": {
-      "title": "9. Recipients and Data Processors",
-      "description": "Personal data may be shared with service providers responsible for hosting, email delivery, or technical maintenance.",
-      "missing": "ADD ALL ACTUAL RECIPIENTS, DATA PROCESSING AGREEMENTS, AND PROCESSING LOCATIONS"
+      "title": "9. Recipients and processors",
+      "description": "Personal data is disclosed only where necessary to operate the website or handle direct contact.",
+      "hosting": "Vercel Inc. for hosting and technical delivery of the website.",
+      "email": "The relevant email provider when you contact us directly by email."
     },
     "transfers": {
-      "title": "10. International Data Transfers",
-      "description": "Whether data is processed outside the European Economic Area depends on the service providers actually used and their configuration.",
-      "missing": "VERIFY INTERNATIONAL TRANSFERS AND SAFEGUARDS"
+      "title": "10. Transfers to third countries",
+      "description": "When Vercel is used, processing of personal data outside the European Economic Area, particularly in the United States, cannot be ruled out. Where required, transfers are based on appropriate safeguards under Articles 44 et seq. GDPR."
     },
     "rights": {
       "title": "11. Rights of Data Subjects",
@@ -561,8 +555,7 @@
     "updates": {
       "title": "14. Updates to this Privacy Policy",
       "description": "This privacy policy must be updated whenever website functions, service providers, legal bases, or processing activities change.",
-      "dateLabel": "Last updated",
-      "date": "INSERT DATE BEFORE PUBLICATION"
+      "dateLabel": "Last updated"
     }
   },
   "NotFoundPage": {

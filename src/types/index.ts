@@ -13,6 +13,7 @@ export type CompanyAddress = {
 
 export type Company = {
   name: string;
+  tradingName?: string;
   legalName?: string;
   owners: string[];
   contact: ContactDetails;
@@ -71,6 +72,7 @@ export type LegalBusinessDetails = {
   legalName?: string;
   legalForm?: string;
   representedBy?: string[];
+  chamber?: string;
   registrationCourt?: string;
   registrationNumber?: string;
   vatId?: string;
