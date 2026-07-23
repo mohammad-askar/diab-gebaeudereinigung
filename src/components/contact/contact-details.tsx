@@ -5,7 +5,15 @@ import { company } from "@/data/company";
 
 export async function ContactDetails() {
   const t = await getTranslations("ContactPage.details");
+  const mapAddress = [
+    company.address.street,
+    `${company.address.postalCode} ${company.address.city}`,
+    company.address.country,
+  ]
+    .filter(Boolean)
+    .join(", ");
 
+  const mapQuery = encodeURIComponent(mapAddress);
   return (
     <div>
       <SectionHeading eyebrow={t("eyebrow")} title={t("title")} description={t("description")} />
@@ -32,10 +40,12 @@ export async function ContactDetails() {
           <h3 className="text-brand-blue-dark font-bold">{t("emailTitle")}</h3>
 
           <a
-            href={`mailto:${company.contact.email}`}
-            className="text-brand-blue hover:text-brand-blue-dark mt-4 block font-semibold break-all"
+            href={`mailto:${company.contact.email}?subject=${encodeURIComponent(
+              "Anfrage an Diab Gebäudereinigung",
+            )}`}
+            className="bg-brand-blue hover:bg-brand-blue-dark mt-5 inline-flex min-h-12 items-center justify-center rounded-full px-6 py-3 font-bold text-white transition"
           >
-            {company.contact.email}
+            {t("emailButton")}
           </a>
         </article>
 
@@ -52,7 +62,7 @@ export async function ContactDetails() {
         <p className="text-muted mt-3 leading-7">{t("mapDescription")}</p>
 
         <a
-          href="https://www.google.com/maps"
+          href={`https://www.google.com/maps/search/?api=1&query=${mapQuery}`}
           target="_blank"
           rel="noreferrer"
           className="border-brand-blue text-brand-blue mt-5 inline-flex min-h-12 items-center justify-center rounded-full border px-6 py-3 font-bold transition hover:bg-white"

@@ -292,32 +292,31 @@
       "descriptionThree": "Unser Ziel ist eine verlässliche Zusammenarbeit und ein dauerhaft gepflegter Eindruck Ihrer Räume."
     },
     "owners": {
-      "eyebrow": "Persönliche Ansprechpartner",
-      "title": "Justyna und Muwafak Zyab",
-      "description": "Die persönliche Betreuung ermöglicht kurze Kommunikationswege und eine direkte Abstimmung der gewünschten Reinigungsleistungen.",
-      "firstOwnerRole": "Ansprechpartnerin",
-      "secondOwnerRole": "Ansprechpartner"
+      "eyebrow": "Persönliche Betreuung",
+      "title": "Direkte und persönliche Ansprechpartnerin",
+      "description": "Als Inhaberin steht Justyna Agnieszka Zyab für eine direkte Abstimmung, kurze Kommunikationswege und persönlich betreute Reinigungsleistungen.",
+      "ownerRole": "Inhaberin"
     },
     "values": {
       "eyebrow": "Unsere Werte",
-      "title": "Was uns bei der täglichen Arbeit wichtig ist",
-      "description": "Gute Reinigungsleistungen beginnen mit klaren Absprachen und einem verantwortungsvollen Umgang mit den Räumen unserer Kunden.",
+      "title": "Was zeichnet unsere Arbeit aus?",
+      "description": "Wir setzen bei jeder Leistung auf Zuverlässigkeit, Qualität, Flexibilität und klare Kommunikation.",
       "items": {
         "reliability": {
           "title": "Zuverlässigkeit",
-          "description": "Vereinbarte Termine und Aufgaben werden sorgfältig eingehalten."
+          "description": "Wir halten vereinbarte Termine ein und führen Reinigungsarbeiten sorgfältig und verantwortungsvoll aus."
         },
         "quality": {
-          "title": "Sorgfalt",
-          "description": "Wir achten auf Details und einen gepflegten Gesamteindruck."
+          "title": "Qualität",
+          "description": "Wir achten auf saubere und ordentliche Ergebnisse, die zu den Anforderungen des Kunden passen."
         },
         "flexibility": {
           "title": "Flexibilität",
-          "description": "Leistungsumfang und Einsatzzeiten werden individuell abgestimmt."
+          "description": "Wir passen uns an die Räumlichkeiten, Arbeitszeiten und gewünschten Leistungen an."
         },
         "communication": {
           "title": "Klare Kommunikation",
-          "description": "Fragen, Wünsche und Änderungen werden direkt und transparent besprochen."
+          "description": "Wir stimmen uns vor und während der Arbeiten direkt und verständlich mit dem Kunden ab."
         }
       }
     },
@@ -368,8 +367,9 @@
       "description": "Für eine schnelle Abstimmung können Sie uns direkt anrufen. Alternativ senden Sie uns Ihre Anfrage über das Formular.",
       "phoneTitle": "Telefon",
       "emailTitle": "E-Mail",
+      "emailButton": "E-Mail schreiben",
       "locationTitle": "Einsatzgebiet",
-      "locationValue": "Deutschland – genauer Einsatzbereich nach Vereinbarung",
+      "locationValue": "Güterstraße 65, 54295 Trier, Deutschland",
       "mapTitle": "Standort und Anfahrt",
       "mapDescription": "Die Karte wird nicht automatisch geladen. Der Link öffnet Google Maps in einem neuen Fenster.",
       "mapButton": "Google Maps öffnen"
@@ -423,18 +423,16 @@
     },
     "eyebrow": "Rechtliche Informationen",
     "title": "Impressum",
-    "introduction": "Die folgenden Angaben müssen vor der Veröffentlichung mit den offiziellen Unternehmensdaten abgeglichen und vervollständigt werden.",
-    "warning": {
-      "title": "Hinweis vor der Veröffentlichung",
-      "description": "Diese Seite ist derzeit eine Entwicklungsvorlage. Fehlende Angaben müssen durch bestätigte Unternehmensdaten ersetzt und rechtlich geprüft werden."
-    },
+    "introduction": "Hier finden Sie die gesetzlich erforderlichen Anbieterinformationen von Diab Gebäudereinigung & Reinigungsservice.",
+
     "provider": {
       "title": "Angaben gemäß § 5 DDG",
       "businessName": "Geschäftsbezeichnung",
       "legalName": "Vollständiger rechtlicher Name",
       "legalForm": "Rechtsform",
       "address": "Ladungsfähige Anschrift",
-      "representedBy": "Vertreten durch"
+      "representedBy": "Vertreten durch",
+      "chamber": "Zuständige Kammer"
     },
     "contact": {
       "title": "Kontakt",
@@ -449,21 +447,13 @@
     },
     "tax": {
       "title": "Steuerliche Angaben",
-      "vatId": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG",
-      "taxNumberWarning": "Eine persönliche oder betriebliche Steuernummer sollte nicht ohne Prüfung öffentlich veröffentlicht werden."
-    },
-    "responsibility": {
-      "title": "Verantwortlich für den Inhalt",
-      "description": "Der erforderliche Inhalt dieses Abschnitts hängt von Art und Umfang der veröffentlichten Inhalte ab und muss vor Veröffentlichung geprüft werden."
+      "vatId": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG"
     },
     "dispute": {
       "title": "Verbraucherstreitbeilegung",
       "description": "Vor Veröffentlichung ist zu klären, ob und welche Erklärung zur Teilnahme an einem Streitbeilegungsverfahren erforderlich ist."
     },
-    "liability": {
-      "title": "Haftung für Inhalte und Links",
-      "description": "Ein individuell geprüfter Haftungshinweis kann hier ergänzt werden. Allgemeine Haftungsausschlüsse beseitigen keine gesetzlichen Verantwortlichkeiten."
-    },
+
     "placeholders": {
       "legalName": "RECHTLICHEN NAMEN EINFÜGEN",
       "legalForm": "RECHTSFORM EINFÜGEN",
@@ -472,8 +462,7 @@
       "city": "ORT EINFÜGEN",
       "registrationCourt": "REGISTERGERICHT EINFÜGEN ODER ABSCHNITT ENTFERNEN",
       "registrationNumber": "REGISTERNUMMER EINFÜGEN ODER ABSCHNITT ENTFERNEN",
-      "vatId": "UST-ID EINFÜGEN ODER ABSCHNITT ENTFERNEN",
-      "responsiblePerson": "VERANTWORTLICHE PERSON PRÜFEN"
+      "vatId": "UST-ID EINFÜGEN ODER ABSCHNITT ENTFERNEN"
     }
   },
   "PrivacyPage": {
@@ -505,7 +494,8 @@
       "provider": "Hostinganbieter",
       "providerMissing": "HOSTINGANBIETER UND VERTRAGSDATEN EINFÜGEN",
       "retention": "Die konkrete Speicherdauer der Server-Logdateien muss beim Hostinganbieter geprüft und hier ergänzt werden.",
-      "legalBasis": "Als Rechtsgrundlage kommt insbesondere Art. 6 Abs. 1 lit. f DSGVO in Betracht; die endgültige Bewertung muss anhand der tatsächlichen Konfiguration erfolgen."
+      "legalBasis": "Als Rechtsgrundlage kommt insbesondere Art. 6 Abs. 1 lit. f DSGVO in Betracht; die endgültige Bewertung muss anhand der tatsächlichen Konfiguration erfolgen.",
+      "privacyLink": "Datenschutzhinweise von Vercel"
     },
     "contact": {
       "title": "4. Kontaktaufnahme per E-Mail, Telefon und Formular",
@@ -539,13 +529,13 @@
     },
     "recipients": {
       "title": "9. Empfänger und Auftragsverarbeiter",
-      "description": "Personenbezogene Daten können an Dienstleister übermittelt werden, die Hosting, E-Mail-Versand oder technische Wartung übernehmen.",
-      "missing": "ALLE TATSÄCHLICHEN EMPFÄNGER, AV-VERTRÄGE UND VERARBEITUNGSORTE ERGÄNZEN"
+      "description": "Personenbezogene Daten werden nur weitergegeben, soweit dies für den Betrieb der Website oder die Bearbeitung einer direkten Kontaktaufnahme erforderlich ist.",
+      "hosting": "Vercel Inc. für Hosting und technische Bereitstellung der Website.",
+      "email": "Der verwendete E-Mail-Anbieter, wenn Sie uns selbst per E-Mail kontaktieren."
     },
     "transfers": {
       "title": "10. Übermittlung in Drittländer",
-      "description": "Ob Daten außerhalb des Europäischen Wirtschaftsraums verarbeitet werden, hängt von den tatsächlich verwendeten Anbietern und deren Konfiguration ab.",
-      "missing": "DRITTLANDÜBERMITTLUNGEN UND GARANTIEN PRÜFEN"
+      "description": "Bei der Nutzung von Vercel kann eine Verarbeitung personenbezogener Daten außerhalb des Europäischen Wirtschaftsraums, insbesondere in den USA, nicht ausgeschlossen werden. Soweit erforderlich, erfolgt die Übermittlung auf Grundlage geeigneter Garantien nach den Art. 44 ff. DSGVO."
     },
     "rights": {
       "title": "11. Rechte betroffener Personen",
@@ -565,8 +555,7 @@
     "updates": {
       "title": "14. Aktualität dieser Datenschutzerklärung",
       "description": "Diese Datenschutzerklärung muss aktualisiert werden, wenn sich Funktionen, Anbieter, Rechtsgrundlagen oder Verarbeitungsabläufe ändern.",
-      "dateLabel": "Stand",
-      "date": "VOR VERÖFFENTLICHUNG DATUM EINFÜGEN"
+      "dateLabel": "Stand"
     }
   },
   "NotFoundPage": {
