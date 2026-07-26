@@ -56,7 +56,43 @@
       "trustOne": "Reliable service",
       "trustTwo": "Flexible scheduling",
       "trustThree": "Tailored solutions",
-      "cardLabel": "Hotel and building cleaning"
+      "cardLabel": "Hotel and building cleaning",
+      "imageAlt": "Diab cleaning employee inside a modern commercial building"
+    },
+    "gallery": {
+      "eyebrow": "A look at our work",
+      "title": "Professional cleaning for different environments",
+      "description": "From hotel rooms and commercial buildings to windows, floors and carpets.",
+      "items": {
+        "commercial-building": {
+          "title": "Building cleaning",
+          "alt": "Diab cleaning employee working inside a modern commercial building"
+        },
+        "hotel-room": {
+          "title": "Hotel cleaning",
+          "alt": "Cleaner carefully preparing a hotel bed"
+        },
+        "window-team": {
+          "title": "Glass cleaning",
+          "alt": "Two cleaners washing large glass windows"
+        },
+        "hotel-corridor": {
+          "title": "Room and corridor cleaning",
+          "alt": "Cleaner vacuuming a hotel corridor"
+        },
+        "kitchen-floor": {
+          "title": "Kitchen cleaning",
+          "alt": "Employee cleaning the floor of a commercial kitchen"
+        },
+        "window-room": {
+          "title": "Window cleaning",
+          "alt": "Cleaner wiping a large room window"
+        },
+        "carpet-cleaning": {
+          "title": "Carpet cleaning",
+          "alt": "Employee carrying out professional carpet cleaning"
+        }
+      }
     },
     "services": {
       "eyebrow": "Our services",
@@ -66,27 +102,33 @@
       "items": {
         "hotelCleaning": {
           "title": "Hotel cleaning",
-          "description": "Thorough cleaning of guest rooms, sanitary facilities and public hotel areas."
+          "description": "Thorough cleaning of guest rooms, sanitary facilities and public hotel areas.",
+          "imageAlt": "Cleaner carefully preparing a hotel room"
         },
         "buildingCleaning": {
           "title": "Building cleaning",
-          "description": "Reliable cleaning and maintenance for commercial and private buildings."
+          "description": "Reliable cleaning and maintenance for commercial and private buildings.",
+          "imageAlt": "Diab cleaning employee inside a modern commercial building"
         },
         "officeCleaning": {
           "title": "Office cleaning",
-          "description": "Clean and well-maintained workplaces for employees, clients and business partners."
+          "description": "Clean and well-maintained workplaces for employees, clients and business partners.",
+          "imageAlt": "Cleaner working inside a modern office"
         },
         "medicalCleaning": {
           "title": "Medical practice cleaning",
-          "description": "Careful cleaning of medical practices and sensitive working areas."
+          "description": "Careful cleaning of medical practices and sensitive working areas.",
+          "imageAlt": "Cleaner working inside a medical practice"
         },
         "windowCleaning": {
           "title": "Glass and window cleaning",
-          "description": "Streak-free cleaning of windows, glass surfaces and frames."
+          "description": "Streak-free cleaning of windows, glass surfaces and frames.",
+          "imageAlt": "Two cleaners washing large glass surfaces"
         },
         "constructionCleaning": {
           "title": "Construction cleaning",
-          "description": "Removal of construction dust and dirt before or after property handover."
+          "description": "Removal of construction dust and dirt before or after property handover.",
+          "imageAlt": "Cleaner working inside a new building or construction site"
         }
       }
     },
@@ -161,7 +203,10 @@
       "title": "The right cleaning solution for your premises",
       "description": "We provide reliable and individually tailored cleaning solutions for hotels, businesses, medical practices, properties and private homes.",
       "primaryButton": "Request a quote",
-      "secondaryButton": "Call us directly"
+      "secondaryButton": "Call us directly",
+      "phoneLabel": "Call us directly",
+      "imageAlt": "Two cleaning professionals washing large glass surfaces",
+      "imageCard": "Professional cleaning for hotels, buildings and commercial spaces"
     },
     "categories": {
       "hotel": {
@@ -183,7 +228,8 @@
           "Cleaning based on agreed procedures",
           "Flexible service times",
           "Care of guest and communal areas"
-        ]
+        ],
+        "imageAlt": "Cleaner carefully preparing a hotel room"
       },
       "roomCleaning": {
         "title": "Guest room cleaning",
@@ -192,7 +238,8 @@
           "Cleaning surfaces and floors",
           "Beds and linen by arrangement",
           "Final check of the overall appearance"
-        ]
+        ],
+        "imageAlt": "Cleaner vacuuming the floor of a well-maintained guest room"
       },
       "sanitaryCleaning": {
         "title": "Bathroom and sanitary cleaning",
@@ -201,7 +248,8 @@
           "Cleaning sinks and fittings",
           "Care of showers and sanitary surfaces",
           "Removal of common dirt and residue"
-        ]
+        ],
+        "imageAlt": "Cleaner sanitising a modern bathroom and sanitary facilities"
       },
       "publicAreas": {
         "title": "Public hotel areas",
@@ -210,7 +258,8 @@
           "Lobby and reception",
           "Corridors and stairwells",
           "Conference and communal rooms"
-        ]
+        ],
+        "imageAlt": "Cleaner maintaining a hotel corridor or shared area"
       },
       "buildingCleaning": {
         "title": "Building cleaning",
@@ -219,7 +268,8 @@
           "Individually agreed service scope",
           "Regular or one-time cleaning",
           "Flexible scheduling"
-        ]
+        ],
+        "imageAlt": "Diab cleaning employee inside a modern commercial building"
       },
       "officeCleaning": {
         "title": "Office cleaning",
@@ -228,12 +278,18 @@
           "Work and meeting rooms",
           "Kitchens and staff areas",
           "Floors and frequently used surfaces"
-        ]
+        ],
+        "imageAlt": "Cleaner wiping a desk inside a modern office"
       },
       "medicalCleaning": {
         "title": "Medical practice cleaning",
         "description": "Careful cleaning for medical practices and other sensitive working environments.",
-        "features": ["Treatment and waiting rooms", "Reception areas", "Agreed cleaning procedures"]
+        "features": [
+          "Treatment and waiting rooms",
+          "Reception areas",
+          "Agreed cleaning procedures"
+        ],
+        "imageAlt": "Cleaner mopping the floor of a modern medical practice"
       },
       "windowCleaning": {
         "title": "Glass and window cleaning",
@@ -242,7 +298,8 @@
           "Internal and external surfaces by arrangement",
           "Window frames and sills",
           "Glass surfaces in entrance areas"
-        ]
+        ],
+        "imageAlt": "Two cleaners washing large glass surfaces"
       },
       "constructionCleaning": {
         "title": "Construction cleaning",
@@ -251,7 +308,8 @@
           "Rough cleaning during construction",
           "Cleaning before property handover",
           "Removal of common construction residue"
-        ]
+        ],
+        "imageAlt": "Cleaner removing dust and construction residue inside a new building"
       }
     },
     "custom": {
@@ -264,7 +322,8 @@
       "eyebrow": "Personal quotation",
       "title": "Let us discuss your cleaning requirements",
       "description": "Contact us with a few details about your property. Together we will determine the appropriate services and cleaning schedule.",
-      "primaryButton": "Send an enquiry",
+      "primaryButton": "Contact us",
+      "emailButton": "Send an email",
       "secondaryButton": "Call now"
     }
   },
@@ -280,12 +339,26 @@
       "primaryButton": "Contact us",
       "secondaryButton": "Our services"
     },
+    "team": {
+      "eyebrow": "Personally available for you",
+      "title": "Direct support and clear communication",
+      "description": "Diab Gebäudereinigung stands for personal coordination, reliable organisation and direct contact.",
+      "imageAlt": "Justyna Agnieszka Zyab and her husband in front of the Diab Gebäudereinigung logo",
+      "ownerRole": "Business owner",
+      "ownerDescription": "Justyna Agnieszka Zyab is the owner of Diab Gebäudereinigung and is responsible for organising and coordinating the cleaning services.",
+      "partnerName": "Muwafak Zyab",
+      "partnerRole": "Contact person and company support",
+      "partnerDescription": "Muwafak Zyab supports direct coordination and is available to customers as a personal contact."
+    },
     "introduction": {
       "eyebrow": "Our company",
       "title": "Cleaning tailored to your requirements",
       "descriptionOne": "Diab Gebäudereinigung provides cleaning services for hotels, offices, medical practices, buildings and private homes.",
       "descriptionTwo": "We coordinate the scope of work, cleaning times and special requirements directly with our clients.",
-      "descriptionThree": "Our goal is reliable cooperation and a consistently well-maintained appearance for your premises."
+      "descriptionThree": "Our goal is reliable cooperation and a consistently well-maintained appearance for your premises.",
+      "legalFormLabel": "Legal form",
+      "ownerLabel": "Business owner",
+      "chamberLabel": "Responsible chamber"
     },
     "owners": {
       "eyebrow": "Personal support",
@@ -350,66 +423,25 @@
   "ContactPage": {
     "metadata": {
       "title": "Contact",
-      "description": "Contact Diab Gebäudereinigung by telephone, email or through our enquiry form."
+      "description": "Contact Diab Gebäudereinigung directly by telephone or email."
     },
     "hero": {
       "eyebrow": "Contact",
       "title": "How can we help you?",
-      "description": "Tell us which cleaning service you require. We will contact you to discuss the next steps."
+      "description": "Tell us by telephone or email which cleaning service you need. We will then discuss the next steps with you."
     },
     "details": {
       "eyebrow": "Direct contact",
       "title": "Reach us by telephone or email",
-      "description": "For quick coordination, call us directly. Alternatively, send your enquiry through the form.",
+      "description": "For quick coordination, call us directly or send us an email.",
       "phoneTitle": "Telephone",
       "emailTitle": "Email",
       "emailButton": "Send an email",
-      "locationTitle": "Service area",
+      "locationTitle": "Location",
       "locationValue": "Güterstraße 65, 54295 Trier, Germany",
       "mapTitle": "Location and directions",
       "mapDescription": "The map is not loaded automatically. The link opens Google Maps in a new window.",
       "mapButton": "Open Google Maps"
-    },
-    "form": {
-      "eyebrow": "Send an enquiry",
-      "title": "Tell us briefly about your cleaning requirements",
-      "description": "Complete the form. Required fields are marked with an asterisk.",
-      "nameLabel": "Name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email address",
-      "emailPlaceholder": "name@example.com",
-      "phoneLabel": "Telephone number",
-      "phonePlaceholder": "Optional",
-      "serviceLabel": "Required service",
-      "servicePlaceholder": "Please select",
-      "messageLabel": "Your message",
-      "messagePlaceholder": "Which areas need cleaning and what scope of service do you require?",
-      "privacyLabel": "I have read the privacy policy and agree to the processing of my information for the purpose of handling my enquiry.",
-      "privacyLink": "Privacy policy",
-      "submit": "Send enquiry",
-      "submitting": "Sending enquiry …",
-      "requiredHint": "Required field",
-      "success": "Thank you. Your enquiry has been received successfully.",
-      "temporarySuccess": "The form was validated successfully. Email delivery will be connected in a later task.",
-      "generalError": "The enquiry could not be processed. Please check your information.",
-      "services": {
-        "hotelCleaning": "Hotel cleaning",
-        "buildingCleaning": "Building cleaning",
-        "officeCleaning": "Office cleaning",
-        "medicalCleaning": "Medical practice cleaning",
-        "windowCleaning": "Glass and window cleaning",
-        "constructionCleaning": "Construction cleaning",
-        "other": "Other cleaning service"
-      },
-      "validation": {
-        "nameRequired": "Enter a name containing at least two characters.",
-        "emailInvalid": "Enter a valid email address.",
-        "phoneInvalid": "The telephone number is too long.",
-        "serviceRequired": "Select a service.",
-        "messageRequired": "Write a message containing at least ten characters.",
-        "privacyRequired": "Confirm that you have read the privacy policy.",
-        "spamDetected": "The enquiry could not be processed."
-      }
     }
   },
   "ImprintPage": {
@@ -420,10 +452,6 @@
     "eyebrow": "Legal information",
     "title": "Legal notice",
     "introduction": "This page contains the legally required provider information for Diab Gebäudereinigung & Reinigungsservice.",
-    "warning": {
-      "title": "Notice before publication",
-      "description": "This page is currently a development template. Missing information must be replaced with confirmed business details and legally reviewed."
-    },
     "provider": {
       "title": "Provider information under Section 5 DDG",
       "businessName": "Trading name",
@@ -438,34 +466,17 @@
       "phone": "Telephone",
       "email": "Email"
     },
-    "registration": {
-      "title": "Register entry",
-      "notApplicable": "If no register entry exists, this section must be adapted accordingly.",
-      "court": "Registration court",
-      "number": "Registration number"
-    },
     "tax": {
       "title": "Tax information",
       "vatId": "VAT identification number under Section 27a of the German VAT Act"
     },
-
     "dispute": {
       "title": "Consumer dispute resolution",
-      "description": "Before publication, it must be determined whether a statement concerning participation in dispute-resolution proceedings is required."
+      "description": "We are neither willing nor obliged to participate in dispute-resolution proceedings before a consumer arbitration board."
     },
     "liability": {
       "title": "Liability for content and links",
-      "description": "An individually reviewed notice may be added here. General disclaimers do not remove statutory responsibilities."
-    },
-    "placeholders": {
-      "legalName": "ENTER FULL LEGAL NAME",
-      "legalForm": "ENTER LEGAL FORM",
-      "street": "ENTER STREET AND NUMBER",
-      "postalCode": "ENTER POSTAL CODE",
-      "city": "ENTER CITY",
-      "registrationCourt": "ENTER REGISTRATION COURT OR REMOVE SECTION",
-      "registrationNumber": "ENTER REGISTRATION NUMBER OR REMOVE SECTION",
-      "vatId": "ENTER VAT ID OR REMOVE SECTION"
+      "description": "We are responsible for our own content on this website in accordance with applicable law. External links lead to third-party websites whose content is the responsibility of the respective provider."
     }
   },
   "PrivacyPage": {
@@ -475,86 +486,72 @@
     },
     "eyebrow": "Privacy",
     "title": "Privacy Policy",
-    "introduction": "This privacy policy describes the currently planned data processing on the website. Before publication, it must be adapted to the actual hosting, email services, and any other services that are used.",
-
+    "introduction": "This privacy policy explains which personal data may be processed when you visit this website or contact us directly by email or telephone.",
     "controller": {
       "title": "1. Data Controller",
-      "description": "The controller within the meaning of the General Data Protection Regulation (GDPR) is:",
-      "missing": "INSERT FULL LEGAL NAME AND ADDRESS"
+      "description": "The controller within the meaning of the General Data Protection Regulation is:"
     },
     "general": {
       "title": "2. General Information on Data Processing",
-      "description": "Personal data is processed only to the extent necessary to provide the website, respond to inquiries, or fulfill legal obligations.",
+      "description": "Personal data is processed only to the extent necessary to provide the website, respond to enquiries or fulfil legal obligations.",
       "legalBasis": "The applicable legal basis depends on the purpose of the processing and is described in the following sections."
     },
     "hosting": {
       "title": "3. Hosting and Server Log Files",
-      "description": "When visiting the website, the hosting provider may process technically necessary data, including the IP address, date and time of access, requested resource, amount of data transferred, referrer, browser, and operating system.",
-      "purpose": "The processing serves the secure and technically stable operation of the website as well as error detection and abuse prevention.",
-      "provider": "Hosting Provider",
-      "providerMissing": "INSERT HOSTING PROVIDER AND CONTRACT DETAILS",
-      "retention": "The specific retention period of the server log files must be confirmed with the hosting provider and documented here.",
-      "legalBasis": "The legal basis may in particular be Article 6(1)(f) GDPR; the final assessment depends on the actual technical configuration.",
+      "description": "When you visit the website, the hosting provider may process technically necessary data, including the IP address, date and time of access, requested resource, amount of data transferred, referrer, browser and operating system.",
+      "purpose": "The processing serves the secure and technically stable provision of the website as well as error detection and abuse prevention.",
+      "provider": "Hosting provider",
+      "retention": "Server log files are retained only for as long as necessary for the secure and stable operation of the website or to comply with legal obligations.",
+      "legalBasis": "The processing is based on our legitimate interest in providing a secure and functional website pursuant to Article 6(1)(f) GDPR.",
       "privacyLink": "Vercel privacy notice"
     },
     "contact": {
-      "title": "4. Contact by Email, Telephone, and Contact Form",
-      "description": "If you contact us, we process the information you provide in order to respond to your inquiry and communicate with you.",
-      "data": "Depending on the contact method, this may include your name, email address, telephone number, selected service, and the content of your message.",
-      "legalBasis": "If the inquiry relates to the conclusion or performance of a contract, Article 6(1)(b) GDPR may apply. In other cases, processing may be based on Article 6(1)(f) GDPR.",
-      "retention": "The data will be deleted once it is no longer required to process the inquiry and statutory retention obligations have expired.",
-      "emailStatusDisabled": "The contact form email function is currently not enabled.",
-      "emailStatusEnabled": "The contact form email function is enabled. The provider, recipients, transmission methods, and legal basis must be documented here."
-    },
-    "consent": {
-      "title": "5. Consent Notice for the Contact Form",
-      "description": "Consent must be voluntary, informed, specific, and revocable. Before going live, it should be determined whether the contact form relies on consent or another legal basis.",
-      "withdrawal": "Any consent given may be withdrawn with effect for the future. The lawfulness of processing carried out before the withdrawal remains unaffected."
+      "title": "4. Contact by Email or Telephone",
+      "description": "If you contact us by email or telephone, we process the information you provide solely to handle your enquiry.",
+      "data": "Depending on the contact method, this may include your name, email address, telephone number and the content of your message.",
+      "legalBasis": "Processing is carried out pursuant to Article 6(1)(b) GDPR for contractual or pre-contractual enquiries, or pursuant to Article 6(1)(f) GDPR for other enquiries.",
+      "retention": "The data is deleted once it is no longer required to process the enquiry, unless statutory retention obligations apply."
     },
     "maps": {
-      "title": "6. Google Maps",
-      "externalLink": "This website currently does not automatically load an embedded Google Maps map. Only an external link to Google Maps is provided.",
-      "externalEffect": "Only when you click the link will you leave this website, and Google may process your data according to its own policies.",
-      "embeddedWarning": "If an embedded map is introduced later, consent management, international data transfers, and privacy information must be reviewed again."
+      "title": "5. Google Maps",
+      "externalLink": "This website does not automatically load an embedded Google Maps map. Only an external link to Google Maps is provided.",
+      "externalEffect": "When you click the link, you leave this website and Google may then process data according to its own policies."
     },
     "fonts": {
-      "title": "7. Fonts",
+      "title": "6. Fonts",
       "description": "Fonts integrated using next/font are provided locally during the build process and are not loaded directly from Google servers when visiting the website."
     },
     "cookies": {
-      "title": "8. Cookies and Access to End Devices",
+      "title": "7. Cookies and Access to End Devices",
       "description": "The current version of the website does not use analytics or marketing cookies.",
-      "necessary": "Technically necessary storage or access may be permitted without consent. Any non-essential storage or access generally requires prior valid consent.",
-      "future": "If analytics, marketing, video, maps, or other third-party services are added later, this section must be updated and, where required, a consent banner must be implemented."
+      "necessary": "Technically necessary storage or access may be used where required for the operation and security of the website."
     },
     "recipients": {
-      "title": "9. Recipients and processors",
+      "title": "8. Recipients and Processors",
       "description": "Personal data is disclosed only where necessary to operate the website or handle direct contact.",
       "hosting": "Vercel Inc. for hosting and technical delivery of the website.",
       "email": "The relevant email provider when you contact us directly by email."
     },
     "transfers": {
-      "title": "10. Transfers to third countries",
+      "title": "9. Transfers to Third Countries",
       "description": "When Vercel is used, processing of personal data outside the European Economic Area, particularly in the United States, cannot be ruled out. Where required, transfers are based on appropriate safeguards under Articles 44 et seq. GDPR."
     },
     "rights": {
-      "title": "11. Rights of Data Subjects",
-      "description": "Subject to the legal requirements, you have the right to access, rectify, erase, restrict processing, data portability, and object to processing.",
-      "consent": "Where processing is based on consent, that consent may be withdrawn for the future."
+      "title": "10. Rights of Data Subjects",
+      "description": "Subject to the legal requirements, you have the right to access, rectify, erase, restrict processing, data portability and object to processing.",
+      "consent": "Where processing is based on consent, that consent may be withdrawn at any time with effect for the future."
     },
     "complaint": {
-      "title": "12. Right to Lodge a Complaint",
-      "description": "You have the right to lodge a complaint with a competent data protection supervisory authority.",
-      "authority": "The competent supervisory authority must be identified based on the company's registered office and specified here.",
-      "missing": "INSERT THE COMPETENT DATA PROTECTION AUTHORITY"
+      "title": "11. Right to Lodge a Complaint",
+      "description": "You have the right to lodge a complaint with a competent data protection supervisory authority."
     },
     "security": {
-      "title": "13. Data Security",
-      "description": "The website should be provided via HTTPS. Technical and organizational measures must be appropriate to the risks associated with the processing."
+      "title": "12. Data Security",
+      "description": "The website is provided through an encrypted HTTPS connection. We implement appropriate technical and organisational measures to protect personal data."
     },
     "updates": {
-      "title": "14. Updates to this Privacy Policy",
-      "description": "This privacy policy must be updated whenever website functions, service providers, legal bases, or processing activities change.",
+      "title": "13. Updates to this Privacy Policy",
+      "description": "This privacy policy will be updated whenever website functions, service providers, legal bases or processing activities change.",
       "dateLabel": "Last updated"
     }
   },

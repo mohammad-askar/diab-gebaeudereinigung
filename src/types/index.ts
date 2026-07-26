@@ -39,9 +39,10 @@ export type ProcessStep = {
   step: number;
 };
 export type DetailedServiceItem = {
-  id: ServiceId;
+  id: string;
   icon: ServiceIconName;
   category: "hotel" | "building";
+  image: string;
 };
 
 export type ServiceCategoryDetails = {

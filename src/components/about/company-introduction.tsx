@@ -9,21 +9,7 @@ export async function CompanyIntroduction() {
 
   return (
     <section className="bg-white py-20 sm:py-24">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2">
-        <div className="relative mx-auto w-full max-w-lg">
-          <div className="bg-brand-blue/10 absolute -inset-4 rotate-3 rounded-[2.5rem]" />
-
-          <div className="border-border bg-surface shadow-brand-blue-dark/10 relative overflow-hidden rounded-[2rem] border p-8 shadow-xl">
-            <Image
-              src="/images/logo/diab-logo.jpg"
-              alt={company.name}
-              width={700}
-              height={700}
-              className="aspect-square w-full object-contain"
-            />
-          </div>
-        </div>
-
+      <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr]">
         <div>
           <SectionHeading eyebrow={t("eyebrow")} title={t("title")} />
 
@@ -33,6 +19,57 @@ export async function CompanyIntroduction() {
             <p>{t("descriptionThree")}</p>
           </div>
         </div>
+
+        <aside className="relative">
+          <div
+            aria-hidden="true"
+            className="bg-brand-blue/10 absolute -inset-4 rotate-2 rounded-[2.5rem]"
+          />
+
+          <div className="border-border relative rounded-[2rem] border bg-white p-7 shadow-xl sm:p-8">
+            <div className="flex items-center gap-4">
+              <div className="border-border bg-surface relative size-20 shrink-0 overflow-hidden rounded-2xl border">
+                <Image
+                  src="/images/logo/diab-logo.jpg"
+                  alt={company.name}
+                  fill
+                  sizes="80px"
+                  className="object-contain p-2"
+                />
+              </div>
+
+              <div>
+                <p className="text-brand-blue-dark text-xl font-bold">
+                  {company.tradingName ?? company.name}
+                </p>
+
+                <p className="text-muted mt-1">
+                  {company.address.postalCode} {company.address.city}
+                </p>
+              </div>
+            </div>
+
+            <dl className="mt-8 space-y-5">
+              <div className="border-border border-t pt-5">
+                <dt className="text-muted text-sm font-semibold">{t("legalFormLabel")}</dt>
+
+                <dd className="text-brand-blue-dark mt-1 font-bold">{company.legal.legalForm}</dd>
+              </div>
+
+              <div className="border-border border-t pt-5">
+                <dt className="text-muted text-sm font-semibold">{t("ownerLabel")}</dt>
+
+                <dd className="text-brand-blue-dark mt-1 font-bold">{company.legalName}</dd>
+              </div>
+
+              <div className="border-border border-t pt-5">
+                <dt className="text-muted text-sm font-semibold">{t("chamberLabel")}</dt>
+
+                <dd className="text-brand-blue-dark mt-1 font-bold">{company.legal.chamber}</dd>
+              </div>
+            </dl>
+          </div>
+        </aside>
       </div>
     </section>
   );
