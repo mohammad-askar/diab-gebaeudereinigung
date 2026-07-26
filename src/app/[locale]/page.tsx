@@ -9,7 +9,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import type { Locale } from "@/i18n/routing";
 import { buildPageMetadata } from "@/lib/seo";
-
+import { CompanyGallery } from "@/components/home/company-gallery";
 type HomePageProps = {
   params: Promise<{
     locale: string;
@@ -25,6 +25,7 @@ export default async function HomePage({ params }: HomePageProps) {
     <main>
       <HomeHero />
       <ServicesOverview />
+      <CompanyGallery />
       <CompanyBenefits />
       <AboutPreview />
       <ServiceProcess />

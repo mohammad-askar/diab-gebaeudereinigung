@@ -28,15 +28,16 @@ export async function ServiceCategorySection({
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {categoryServices.map((service) => {
-            const features = t.raw(`items.${service.id}.features`) as string[];
 
             return (
               <DetailedServiceCard
                 key={service.id}
                 icon={service.icon}
+                image={service.image}
+                imageAlt={t(`items.${service.id}.imageAlt`)}
                 title={t(`items.${service.id}.title`)}
                 description={t(`items.${service.id}.description`)}
-                features={features}
+                features={t.raw(`items.${service.id}.features`)}
               />
             );
           })}

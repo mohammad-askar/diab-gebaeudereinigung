@@ -4,8 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AboutContactCta } from "@/components/about/about-contact-cta";
 import { AboutHero } from "@/components/about/about-hero";
 import { CompanyIntroduction } from "@/components/about/company-introduction";
+import { CompanyTeam } from "@/components/about/company-team";
 import { CompanyValues } from "@/components/about/company-values";
-import { OwnersSection } from "@/components/about/owners-section";
 import { WorkingApproach } from "@/components/about/working-approach";
 import type { Locale } from "@/i18n/routing";
 import { buildPageMetadata } from "@/lib/seo";
@@ -41,7 +41,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
     <main>
       <AboutHero />
       <CompanyIntroduction />
-      <OwnersSection />
+      <CompanyTeam />
       <CompanyValues />
       <WorkingApproach />
       <AboutContactCta />

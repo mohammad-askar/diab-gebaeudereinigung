@@ -13,42 +13,66 @@ export async function HomeHero() {
   const trustItems = [t("trustOne"), t("trustTwo"), t("trustThree")];
 
   return (
-    <section className="from-surface relative overflow-hidden bg-gradient-to-b to-white">
+    <section className="relative isolate min-h-[calc(100vh-5rem)] overflow-hidden bg-slate-950">
+      <div className="absolute inset-0 overflow-hidden">
+        <Image
+          src="/images/company/commercial-building-cleaning.png"
+          alt={t("imageAlt")}
+          fill
+          priority
+          quality={90}
+          sizes="100vw"
+          className="scale-[1.22] object-cover object-center"
+        />
+      </div>
+
+      <div aria-hidden="true" className="absolute inset-0 bg-slate-950/45" />
+
       <div
         aria-hidden="true"
-        className="bg-brand-blue/10 absolute end-[-10rem] -top-36 size-[30rem] rounded-full blur-3xl"
+        className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/70 to-slate-950/15 rtl:bg-gradient-to-l"
       />
 
       <div
         aria-hidden="true"
-        className="bg-brand-green/10 absolute start-[-10rem] -bottom-52 size-[30rem] rounded-full blur-3xl"
+        className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-slate-950/80 to-transparent"
       />
 
-      <div className="relative mx-auto grid min-h-[calc(100vh-5rem)] max-w-7xl items-center gap-12 px-6 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
-        <div>
-          <p className="border-brand-green/30 bg-brand-green/10 text-brand-green-dark inline-flex rounded-full border px-4 py-2 text-sm font-bold">
+      <div
+        aria-hidden="true"
+        className="bg-brand-blue/20 absolute -start-40 top-10 size-[28rem] rounded-full blur-3xl"
+      />
+
+      <div
+        aria-hidden="true"
+        className="bg-brand-green/15 absolute -end-40 bottom-0 size-[26rem] rounded-full blur-3xl"
+      />
+
+      <div className="relative z-10 mx-auto flex min-h-[calc(100vh-5rem)] max-w-7xl items-center px-6 py-20 sm:py-24 lg:py-28">
+        <div className="max-w-3xl">
+          <p className="border-brand-green/50 bg-brand-green/15 text-brand-green inline-flex rounded-full border px-4 py-2 text-sm font-bold backdrop-blur-sm">
             {t("eyebrow")}
           </p>
 
-          <h1 className="text-brand-blue-dark mt-7 max-w-4xl text-4xl font-bold tracking-tight sm:text-5xl lg:text-7xl lg:leading-[1.05]">
+          <h1 className="mt-7 max-w-4xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-7xl lg:leading-[1.05]">
             {t("title")}
           </h1>
 
-          <p className="text-muted mt-6 max-w-2xl text-lg leading-8 sm:text-xl">
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
             {t("description")}
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
             <Link
               href="/kontakt"
-              className="bg-brand-blue shadow-brand-blue/20 hover:bg-brand-blue-dark focus-visible:outline-brand-blue inline-flex min-h-12 items-center justify-center rounded-full px-7 py-3 font-bold text-white shadow-lg transition focus-visible:outline-2 focus-visible:outline-offset-2"
+              className="bg-brand-blue hover:bg-brand-blue-dark focus-visible:outline-brand-blue inline-flex min-h-12 items-center justify-center rounded-full px-7 py-3 font-bold text-white shadow-xl shadow-black/20 transition focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               {t("primaryButton")}
             </Link>
 
             <Link
               href="/leistungen"
-              className="border-brand-blue/30 text-brand-blue-dark hover:border-brand-blue hover:bg-surface inline-flex min-h-12 items-center justify-center rounded-full border bg-white px-7 py-3 font-bold transition"
+              className="bg-brand-blue hover:bg-brand-blue-dark focus-visible:outline-brand-blue inline-flex min-h-12 items-center justify-center rounded-full px-7 py-3 font-bold text-white shadow-xl shadow-black/20 transition focus-visible:outline-2 focus-visible:outline-offset-2"
             >
               {t("secondaryButton")}
             </Link>
@@ -56,53 +80,47 @@ export async function HomeHero() {
 
           <a
             href={`tel:${phoneHref}`}
-            className="text-brand-blue-dark hover:text-brand-blue mt-6 inline-flex items-center gap-3 font-semibold"
+            className="mt-7 inline-flex items-center gap-3 text-white transition hover:text-white/75"
           >
             <span
               aria-hidden="true"
-              className="bg-brand-blue/10 flex size-10 items-center justify-center rounded-full"
+              className="flex size-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-lg backdrop-blur-sm"
             >
               ☎
             </span>
 
             <span>
-              <span className="text-muted block text-sm font-medium">{t("phoneLabel")}</span>
-              <span className="block">{primaryPhone}</span>
+              <span className="block text-sm font-medium text-white/65">{t("phoneLabel")}</span>
+
+              <span className="block font-bold">{primaryPhone}</span>
             </span>
           </a>
 
-          <ul className="text-foreground mt-10 flex flex-col gap-3 text-sm font-semibold sm:flex-row sm:flex-wrap sm:gap-6">
+          <ul className="mt-10 flex flex-col gap-3 text-sm font-semibold text-white sm:flex-row sm:flex-wrap sm:gap-6">
             {trustItems.map((item) => (
               <li key={item} className="flex items-center gap-2">
                 <span
                   aria-hidden="true"
-                  className="bg-brand-green flex size-5 items-center justify-center rounded-full text-xs text-white"
+                  className="bg-brand-green flex size-5 shrink-0 items-center justify-center rounded-full text-xs text-white"
                 >
                   ✓
                 </span>
-                {item}
+
+                <span>{item}</span>
               </li>
             ))}
           </ul>
         </div>
+      </div>
 
-        <div className="relative mx-auto w-full max-w-xl">
-          <div className="bg-brand-blue/10 absolute -inset-5 rotate-3 rounded-[2.5rem]" />
+      <div className="absolute inset-x-0 bottom-0 z-10">
+        <div className="mx-auto max-w-7xl px-6 pb-7">
+          <div className="flex flex-col gap-2 border-t border-white/20 pt-5 text-sm text-white/65 sm:flex-row sm:items-center sm:justify-between">
+            <p className="font-semibold text-white">{company.tradingName ?? company.name}</p>
 
-          <div className="shadow-brand-blue-dark/15 relative overflow-hidden rounded-[2rem] border border-white bg-white p-4 shadow-2xl">
-            <Image
-              src="/images/logo/diab-logo.jpg"
-              alt={company.name}
-              width={800}
-              height={800}
-              priority
-              className="aspect-square w-full rounded-[1.5rem] bg-white object-contain"
-            />
-          </div>
-
-          <div className="border-border absolute start-4 -bottom-6 max-w-[15rem] rounded-2xl border bg-white p-4 shadow-xl sm:start-[-2rem]">
-            <p className="text-brand-blue-dark font-bold">{company.name}</p>
-            <p className="text-muted mt-1 text-sm leading-6">{t("cardLabel")}</p>
+            <p>
+              {company.address.postalCode} {company.address.city}
+            </p>
           </div>
         </div>
       </div>
