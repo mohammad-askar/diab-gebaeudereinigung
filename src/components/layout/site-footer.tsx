@@ -14,7 +14,7 @@ export async function SiteFooter() {
 
   return (
     <footer className="border-border/70 bg-surface border-t">
-      <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:py-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.35fr_1fr_1fr_1fr] lg:gap-10">
           <div>
             <Link
@@ -27,50 +27,51 @@ export async function SiteFooter() {
                 alt={company.name}
                 width={180}
                 height={100}
-                className="h-20 w-auto object-contain"
+                className="h-28 w-auto object-contain"
               />
             </Link>
 
-            <p className="text-muted mt-5 max-w-md leading-7">{footer("description")}</p>
+            <p className="text-muted mt-2 max-w-md leading-7">{footer("description")}</p>
 
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-              <a
-                href={`tel:${primaryPhoneHref}`}
-                className={[
-                  "bg-brand-blue hover:bg-brand-blue-dark inline-flex min-h-12 items-center justify-center rounded-full px-5",
-                  "shadow-brand-blue/20 font-bold text-white shadow-lg transition-all duration-200",
-                  "hover:shadow-brand-blue/25 hover:-translate-y-0.5 hover:shadow-xl",
-                  "focus-visible:ring-brand-blue focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none",
-                ].join(" ")}
-              >
-                <svg
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.8"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="me-2 size-4"
-                >
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z" />
-                </svg>
+  <a
+    href={`tel:${primaryPhoneHref}`}
+    className={[
+      "bg-brand-blue hover:bg-brand-blue-dark",
+      "inline-flex min-h-12 w-full items-center justify-center whitespace-nowrap rounded-full px-5 sm:w-56",
+      "shadow-brand-blue/20 font-bold text-white shadow-lg transition-all duration-200",
+      "hover:shadow-brand-blue/25 hover:-translate-y-0.5 hover:shadow-xl",
+      "focus-visible:ring-brand-blue focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none",
+    ].join(" ")}
+  >
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="me-2 size-4 shrink-0"
+    >
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z" />
+    </svg>
 
-                {footer("callUs")}
-              </a>
+    {footer("callUs")}
+  </a>
 
-              <Link
-                href="/kontakt"
-                className={[
-                  "border-brand-blue/40 text-brand-blue-dark hover:border-brand-blue hover:bg-brand-blue/5",
-                  "inline-flex min-h-12 items-center justify-center rounded-full border px-5 font-bold",
-                  "transition-all duration-200",
-                  "focus-visible:ring-brand-blue focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none",
-                ].join(" ")}
-              >
-                {footer("contactCta")}
-              </Link>
-            </div>
+  <Link
+    href="/kontakt"
+    className={[
+      "border-brand-blue/40 text-brand-blue-dark hover:border-brand-blue hover:bg-brand-blue/5",
+      "inline-flex min-h-12 w-full items-center justify-center whitespace-nowrap rounded-full border px-5 font-bold sm:w-56",
+      "transition-all duration-200",
+      "focus-visible:ring-brand-blue focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none",
+    ].join(" ")}
+  >
+    {footer("contactCta")}
+  </Link>
+</div>
           </div>
 
           <div>
