@@ -26,11 +26,11 @@ export async function SiteHeader() {
           <Image
             src="/images/logo/diab-logo.jpg"
             alt={company.name}
-            width={180}
-            height={80}
+            width={400}
+            height={230}
             priority
             sizes="(min-width: 1024px) 150px, 120px"
-            className="h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] lg:h-16"
+            className="h-20 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] lg:h-24"
           />
         </Link>
 

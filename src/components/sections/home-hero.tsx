@@ -84,7 +84,7 @@ export async function HomeHero() {
           >
             <span
               aria-hidden="true"
-              className="flex size-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-lg backdrop-blur-sm"
+              className="flex size-11 items-center text-white/80 justify-center rounded-full border border-white/20 bg-white/10 text-lg backdrop-blur-sm"
             >
               ☎
             </span>
@@ -92,7 +92,7 @@ export async function HomeHero() {
             <span>
               <span className="block text-sm font-medium text-white/65">{t("phoneLabel")}</span>
 
-              <span className="block font-bold">{primaryPhone}</span>
+              <span className="block font-bold text-white/80">{primaryPhone}</span>
             </span>
           </a>
 
