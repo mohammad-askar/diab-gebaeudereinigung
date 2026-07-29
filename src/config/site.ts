@@ -1,18 +1,17 @@
-import type { MetadataRoute } from "next";
+import type { WebsiteConfiguration } from "@/types";
 
-import { publicRoutes } from "@/data/routes";
-import { routing, type Locale } from "@/i18n/routing";
-import { getLanguageAlternates, getLocalizedUrl } from "@/lib/seo";
+export const siteConfiguration: WebsiteConfiguration = {
+  productionUrl: process.env.NEXT_PUBLIC_SITE_URL,
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routing.locales.flatMap((locale) =>
-    publicRoutes.map((pathname) => ({
-      url: getLocalizedUrl(locale as Locale, pathname),
-      changeFrequency: pathname === "/" ? "weekly" : "monthly",
-      priority: pathname === "/" ? 1 : pathname === "/kontakt" ? 0.9 : 0.8,
-      alternates: {
-        languages: getLanguageAlternates(pathname),
-      },
-    })),
-  );
-}
+  hosting: {
+    providerName: "Vercel Inc.",
+    providerAddress: "440 N Barranca Ave #4133, Covina, CA 91723, USA",
+    providerCountry: "United States",
+    privacyPolicyUrl: "https://vercel.com/legal/privacy-notice",
+  },
+
+  contactFormEmailDeliveryEnabled: false,
+  analyticsEnabled: false,
+  embeddedGoogleMapsEnabled: false,
+  externalGoogleMapsLinkEnabled: true,
+};
