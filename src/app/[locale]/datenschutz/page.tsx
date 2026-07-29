@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { LegalPageLayout } from "@/components/legal/legal-page-layout";
 import { LegalSection } from "@/components/legal/legal-section";
-import siteConfiguration from "@/config/site";
+import { siteConfiguration } from "@/config/site";
 import { company } from "@/data/company";
 import { dataProtectionAuthority, privacyPolicyLastUpdated } from "@/data/legal";
 import type { Locale } from "@/i18n/routing";
