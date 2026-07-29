@@ -84,7 +84,7 @@ export async function HomeHero() {
           >
             <span
               aria-hidden="true"
-              className="flex size-11 items-center text-white/80 justify-center rounded-full border border-white/20 bg-white/10 text-lg backdrop-blur-sm"
+              className="flex size-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-lg text-white/80 backdrop-blur-sm"
             >
               ☎
             </span>

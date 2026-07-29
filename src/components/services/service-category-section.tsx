@@ -28,7 +28,6 @@ export async function ServiceCategorySection({
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
           {categoryServices.map((service) => {
-
             return (
               <DetailedServiceCard
                 key={service.id}

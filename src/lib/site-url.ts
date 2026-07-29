@@ -17,5 +17,7 @@ export function getAbsoluteUrl(pathname = "/") {
 export function isProductionSiteConfigured() {
   const siteUrl = getSiteUrl();
 
-  return !["localhost", "127.0.0.1"].includes(siteUrl.hostname);
+  const isLocalhost = ["localhost", "127.0.0.1"].includes(siteUrl.hostname);
+
+  return siteUrl.protocol === "https:" && !isLocalhost;
 }
